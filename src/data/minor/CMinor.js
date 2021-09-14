@@ -1,7 +1,7 @@
 // 20210914142829
 // http://localhost:3001/keys/18
 
-const cMinor = {
+const CMinor = {
     "id": 18,
     "name": "C",
     "accidental": null,
@@ -4325,4 +4325,4 @@ const cMinor = {
     ]
   }
 
-export default cMinor;
+export default CMinor;

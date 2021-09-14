@@ -1,4 +1,4 @@
-const cMajor = {
+const CMajor = {
     "id": 1,
     "name": "C",
     "accidental": null,
@@ -4322,4 +4322,4 @@ const cMajor = {
     ]
   }
 
-export default cMajor;
+export default CMajor;

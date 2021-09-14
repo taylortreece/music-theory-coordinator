@@ -1,4 +1,7 @@
 import React from 'react'
+import { connect } from 'react-redux'
+import { getKey } from '../actions/keys'
+
 import Banner from '../components/Banner'
 import Selector from '../components/Selector'
 import UserSongs from '../components/UserSongs'
@@ -12,10 +15,10 @@ class SongWorkshop extends React.Component {
     constructor() {
         super();
         this.state = {
-            name: 'C',
+            instrument: 'Piano',
             type: 'Major',
+            name: 'C',
             scale: 'Ionian',
-            instrument: 'Piano'
         };
     }
 
@@ -23,35 +26,51 @@ class SongWorkshop extends React.Component {
         this.setState({
             [event.target.name]: event.target.value
         })
-        console.log(
-            event.target.name,
-            
-        )
+        this.props.getKey({
+            [event.target.name]: event.target.value
+        })
+        console.log(this.state)
     }
 
     render() {
+        console.log(this.props.key)
         return (
             <Container fluid>
                 <Row>
                     <Col>
                         <Row>
-                            <Banner instrument={this.state.instrument} />
+                            <Banner 
+                                instrument={this.state.instrument}
+                                style={{transform: "scaleX(-1)"}}
+                            />
                             <Selector 
                                 handleOnChange={this.handleOnChange}
                                 options={['Piano', 'Guitar',  'Violin']}
+                                name='instrument'
                                 />
                         </Row>
                     </Col>
                     <Col xs={7} lg={7}>
                         <Row>
                             <Col>
-                                <Selector style={{marginLeft: "auto", marginRight: "auto", display: 'block'}} options={['Major', 'minor']}/>
+                                <Selector 
+                                    handleOnChange={this.handleOnChange}
+                                    options={['Major', 'minor']}
+                                    name="type" 
+                                />
                             </Col>
                             <Col>
-                                <Selector options={["Keys"]}/>
+                                <Selector 
+                                    handleOnChange={this.handleOnChange}
+                                    options={["Keys 1", "Keys 2", "Keys 3"]}
+                                    name="name" />
                             </Col>
                             <Col>
-                                <Selector options={['Modes']}/>
+                                <Selector name="scale" 
+                                    handleOnChange={this.handleOnChange}
+                                    options={['Ionian', 'Dorian', 'Phrygian']}
+                                    name="scale" 
+                                />
                             </Col>
                         </Row>
                         <Row>
@@ -63,7 +82,9 @@ class SongWorkshop extends React.Component {
                     </Col>
                     <Col>
                         <Row>
-                            <Banner instrument={this.state.instrument}/>
+                            <Banner 
+                                instrument={this.state.instrument}
+                            />
                             <h1>Your Songs:</h1>
                             <UserSongs />
                         </Row>
@@ -75,4 +96,10 @@ class SongWorkshop extends React.Component {
     }
 }
 
-export default SongWorkshop;
+const mapStateToProps = (state) => {
+    return {
+        key: state.key
+    }
+}
+
+export default connect(mapStateToProps, { getKey })(SongWorkshop);
