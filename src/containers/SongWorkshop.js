@@ -12,8 +12,21 @@ class SongWorkshop extends React.Component {
     constructor() {
         super();
         this.state = {
-            test: 'Hello, world.'
+            name: 'C',
+            type: 'Major',
+            scale: 'Ionian',
+            instrument: 'Piano'
         };
+    }
+
+    handleOnChange = (event) => {
+        this.setState({
+            [event.target.name]: event.target.value
+        })
+        console.log(
+            event.target.name,
+            
+        )
     }
 
     render() {
@@ -22,8 +35,11 @@ class SongWorkshop extends React.Component {
                 <Row>
                     <Col>
                         <Row>
-                            <Banner />
-                            <Selector options={['Guitar', 'Piano', 'Violin']}/>
+                            <Banner instrument={this.state.instrument} />
+                            <Selector 
+                                handleOnChange={this.handleOnChange}
+                                options={['Piano', 'Guitar',  'Violin']}
+                                />
                         </Row>
                     </Col>
                     <Col xs={7} lg={7}>
@@ -47,7 +63,7 @@ class SongWorkshop extends React.Component {
                     </Col>
                     <Col>
                         <Row>
-                            <Banner />
+                            <Banner instrument={this.state.instrument}/>
                             <h1>Your Songs:</h1>
                             <UserSongs />
                         </Row>

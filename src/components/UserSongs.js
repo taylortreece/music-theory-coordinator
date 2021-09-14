@@ -17,7 +17,9 @@ class UserSongs extends React.Component {
             <Container>
                 <Row>
                     <Col>
-                        {this.state.list.map(song => (<h3 style={{
+                        {this.state.list.map(song => (<h3 
+                            key={song}
+                            style={{
                             lineHeight: '2em'
                         }}>{song}</h3>))}
                     </Col>

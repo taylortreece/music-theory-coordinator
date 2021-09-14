@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Banner = () => {
+const Banner = ({ instrument }) => {
     return (
-        <img src='violin.jpg' alt="guitar"/>
+        <img key={instrument} src={`${instrument}.jpg`} alt={`${instrument}`}/>
     )
 }
 
