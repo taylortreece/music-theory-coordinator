@@ -2,7 +2,7 @@ const CMajor = {
     "id": 1,
     "name": "C",
     "accidental": null,
-    "keyType": "Major",
+    "key_type": "Major",
     "primaryScaleId": 1,
     "created_at": "2021-08-12T18:58:08.414Z",
     "updated_at": "2021-08-12T18:58:10.260Z",
@@ -10,7 +10,7 @@ const CMajor = {
       {
         "id": 2,
         "name": "C Ionian",
-        "scaleType": "Ionian",
+        "scale_type": "Ionian",
         "degrees": {
           "I": "major, major_seventh",
           "ii": "minor, minor_seventh",
@@ -626,7 +626,7 @@ const CMajor = {
       {
         "id": 3,
         "name": "D Dorian",
-        "scaleType": "Dorian",
+        "scale_type": "Dorian",
         "degrees": {
           "ii": "minor, minor_seventh",
           "iii": "minor, minor_seventh",
@@ -1242,7 +1242,7 @@ const CMajor = {
       {
         "id": 4,
         "name": "E Phryigian",
-        "scaleType": "Phryigian",
+        "scale_type": "Phryigian",
         "degrees": {
           "iii": "minor, minor_seventh",
           "IV": "major, major_seventh",
@@ -1858,7 +1858,7 @@ const CMajor = {
       {
         "id": 5,
         "name": "F Lydian",
-        "scaleType": "Lydian",
+        "scale_type": "Lydian",
         "degrees": {
           "IV": "major, major_seventh",
           "V": "major, dominant_seventh",
@@ -2474,7 +2474,7 @@ const CMajor = {
       {
         "id": 6,
         "name": "G Mixolydian",
-        "scaleType": "Mixolydian",
+        "scale_type": "Mixolydian",
         "degrees": {
           "V": "major, dominant_seventh",
           "vi": "minor, minor_seventh",
@@ -3090,7 +3090,7 @@ const CMajor = {
       {
         "id": 7,
         "name": "A Aeolian",
-        "scaleType": "Aeolian",
+        "scale_type": "Aeolian",
         "degrees": {
           "vi": "minor, minor_seventh",
           "viidim": "diminished, minor_seventh_flat_five",
@@ -3706,7 +3706,7 @@ const CMajor = {
       {
         "id": 8,
         "name": "B Locrian",
-        "scaleType": "Locrian",
+        "scale_type": "Locrian",
         "degrees": {
           "viidim": "diminished, minor_seventh_flat_five",
           "I": "major, major_seventh",

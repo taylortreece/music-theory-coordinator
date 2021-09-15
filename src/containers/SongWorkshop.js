@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { getKey } from '../actions/keys'
+import { fetchKey } from '../actions/key'
 
 import Banner from '../components/Banner'
 import Selector from '../components/Selector'
@@ -15,10 +15,13 @@ class SongWorkshop extends React.Component {
     constructor() {
         super();
         this.state = {
+            key: {
+                scale: "Ionian",
+                type: 'Major',
+                name: "C",
+            },
             instrument: 'Piano',
-            type: 'Major',
-            name: 'C',
-            scale: 'Ionian',
+            songs: []
         };
     }
 
@@ -26,14 +29,24 @@ class SongWorkshop extends React.Component {
         this.setState({
             [event.target.name]: event.target.value
         })
-        this.props.getKey({
+    }
+
+    handleKeyChange = (event) => {
+        this.setState({ key: {
+            ...this.state.key, 
             [event.target.name]: event.target.value
+            }
         })
         console.log(this.state)
     }
 
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        if (prevState.key !== this.state.key) {
+            this.props.fetchKey(this.state.key)
+        }
+    }
+
     render() {
-        console.log(this.props.key)
         return (
             <Container fluid>
                 <Row>
@@ -54,27 +67,27 @@ class SongWorkshop extends React.Component {
                         <Row>
                             <Col>
                                 <Selector 
-                                    handleOnChange={this.handleOnChange}
+                                    handleOnChange={this.handleKeyChange}
                                     options={['Major', 'minor']}
                                     name="type" 
                                 />
                             </Col>
                             <Col>
                                 <Selector 
-                                    handleOnChange={this.handleOnChange}
-                                    options={["Keys 1", "Keys 2", "Keys 3"]}
+                                    handleOnChange={this.handleKeyChange}
+                                    options={["D", "E", "F", "G", "A", "B", "C"]}
                                     name="name" />
                             </Col>
                             <Col>
-                                <Selector name="scale" 
-                                    handleOnChange={this.handleOnChange}
-                                    options={['Ionian', 'Dorian', 'Phrygian']}
+                                <Selector 
+                                    handleOnChange={this.handleKeyChange}
+                                    options={this.props.chosenKey.scales.map(scale => (scale.scale_type))}
                                     name="scale" 
                                 />
                             </Col>
                         </Row>
                         <Row>
-                            <Chords chords={['C Major', 'd minor', 'e minor', 'F Major', 'G Major', 'a minor', 'b diminished']}/>
+                            <Chords scale={this.props.chosenKey.scales.filter(scale => (scale.scale_type === this.props.chosenScale))[0]}/>
                         </Row>
                         <Row>
                             <SongField />
@@ -98,8 +111,9 @@ class SongWorkshop extends React.Component {
 
 const mapStateToProps = (state) => {
     return {
-        key: state.key
+        chosenKey: state.chosenKey,
+        chosenScale: state.chosenScale
     }
 }
 
-export default connect(mapStateToProps, { getKey })(SongWorkshop);
+export default connect(mapStateToProps, { fetchKey })(SongWorkshop);

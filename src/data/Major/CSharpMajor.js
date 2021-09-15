@@ -1,7 +1,7 @@
 // 20210914180559
 // http://localhost:3001/keys/2
 
-const CShaprMajor = {
+const CSharpMajor = {
     "id": 2,
     "name": "C♯",
     "accidental": null,

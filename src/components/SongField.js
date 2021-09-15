@@ -2,11 +2,14 @@ import React from 'react'
 
 const SongField = () => {
     return (
-        <div style={{
-            width: "540px", 
-            height: "400px", 
+        <div className="songField"
+            style={{
             border: 'solid',
-            align: "center"
+            width: '100%',
+            height: '200px',
+            overflow: "auto",
+            content: "",
+            display:"block"
             }}>
         </div>
     )
