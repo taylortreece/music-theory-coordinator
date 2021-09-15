@@ -4,7 +4,8 @@ class Note extends React.Component {
     constructor() {
         super();
         this.state = {
-            position: 4
+            position: 4,
+            url: ''
         }
     }
 

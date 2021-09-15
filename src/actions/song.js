@@ -1,4 +1,5 @@
 export function addChord(chord) {
+    debugger
     return {
         type: "ADD_CHORD",
         chord

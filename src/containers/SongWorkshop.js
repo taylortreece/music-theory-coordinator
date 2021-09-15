@@ -110,8 +110,8 @@ class SongWorkshop extends React.Component {
 
 const mapStateToProps = (state) => {
     return {
-        chosenKey: state.chosenKey,
-        chosenScale: state.chosenScale
+        chosenKey: state.keyReducer.chosenKey,
+        chosenScale: state.keyReducer.chosenScale
     }
 }
 
