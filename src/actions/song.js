@@ -15,3 +15,10 @@ export function removeChord(chord) {
         chord
     }
 }
+
+export function updateChord(note) {
+    return {
+        type: "UPDATE_CHORD",
+        note
+    }
+}

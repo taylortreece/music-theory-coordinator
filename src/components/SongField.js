@@ -9,10 +9,17 @@ class SongField extends React.Component {
         this.props.removeChord(chord)
     }
 
+    // changePosition = (num, action) => {
+    //     if (num > 0) {
+    //         action === "plus" ? num += 1 : num -= 1
+    //     }
+    // }
+
     render() {
         return (
             <div className="songField"
                 style={{
+                backgroundColor: 'white',
                 marginTop: '5%',
                 border: 'solid',
                 width: '100%',

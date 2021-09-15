@@ -6,22 +6,12 @@ import * as Tone from 'tone'
 class Player extends React.Component {
     
     play = () => {
-
-
-        const sampler = new Tone.Sampler({
-            urls: {
-                "C4": "C4.mp3",
-                "D#4": "Ds4.mp3",
-                "F#4": "Fs4.mp3",
-                "A4": "A4.mp3",
-            },
-            release: 1,
-            baseUrl: "https://tonejs.github.io/audio/salamander/",
-        }).toDestination();
-        
-        Tone.loaded().then(() => {
-            sampler.triggerAttackRelease(["Eb4", "G4", "Bb4"], 4);
-        })
+        // const synth = new Tone.Synth().toDestination();
+        // const now = Tone.now()
+        // // trigger the attack immediately
+        // synth.triggerAttack([this.props.chords[0].updatesNotes[0].name], now)
+        // // wait one second before triggering the release
+        // synth.triggerRelease(now + 1)
     }
 
     render() {
@@ -32,8 +22,10 @@ class Player extends React.Component {
 }
 
 const mapStateToProps = (state) => {
+    console.log(state)
     return {
-        song: state.songReducer
+        song: state.songReducer,
+        chords: state.songReducer.chords
     }
 }
 

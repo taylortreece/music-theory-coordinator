@@ -85,9 +85,8 @@ class SongWorkshop extends React.Component {
                                     <Button value="flatKeys" className="accidental" style={{marginRight: '2%'}}>Flat</Button>
                                 </div>
                                 <Selector 
-                                    // style={{display: 'block', float: 'left'}}
                                     handleOnChange={this.handleKeyChange}
-                                    options={flatKeyNames}
+                                    options={sharpKeyNames}
                                     name="name" 
                                 />
                             </Col>
