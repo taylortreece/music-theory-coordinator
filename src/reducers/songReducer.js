@@ -3,15 +3,15 @@
 export default function songReducer(state = {
     chords: [],
 }, action) {
-
     switch(action.type) {
+
         case "ADD_CHORD": 
-        console.log(state)
-        return state
+
+        return {...state, chords: state.chords.concat(action.chord)}
 
         case "REMOVE_CHORD":
 
-        return state
+        return {...state, chords: state.chords.filter(chord => (chord.songChordId !== action.chord.songChordId))}
     
 
     default:

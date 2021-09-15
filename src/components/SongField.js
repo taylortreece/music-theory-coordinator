@@ -3,22 +3,33 @@ import { connect } from 'react-redux'
 import Chord from './Chord'
 import { removeChord } from '../actions/song'
 
-import { v4 as uuidv4 } from 'uuid'
 
 class SongField extends React.Component {
+    onHandleClick = (chord) => {
+        this.props.removeChord(chord)
+    }
+
     render() {
         return (
             <div className="songField"
                 style={{
+                marginTop: '5%',
                 border: 'solid',
                 width: '100%',
-                height: '200px',
+                height: "auto",
+                minHeight: '300px',
                 overflow: "auto",
                 content: "",
                 display:"block"
                 }}>
                     {this.props.chords.map(chord => (
-                        <Chord key={chord.name + chord.id} id={uuidv4()}chord={chord} />
+                        <Chord 
+                            key={chord.name + chord.id} 
+                            chord={chord}
+                            buttonAction="remove"
+                            variant="outline-danger"
+                            action={this.onHandleClick}
+                        />
                     ))}
             </div>
         )

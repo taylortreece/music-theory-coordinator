@@ -1,13 +1,16 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { fetchKey } from '../actions/key'
+import { naturalKeyNames, sharpKeyNames, flatKeyNames } from '../data/keyNames'
 
 import Banner from '../components/Banner'
 import Selector from '../components/Selector'
 import UserSongs from '../components/UserSongs'
 import SongField from '../components/SongField'
+import Player from '../components/Player'
 import Chords from '../components/Chords'
 import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -21,6 +24,9 @@ class SongWorkshop extends React.Component {
                 name: "C",
             },
             instrument: 'Piano',
+            naturalKeys: naturalKeyNames,
+            sharpKeys: sharpKeyNames,
+            flatKeys: flatKeyNames,
         };
     }
 
@@ -72,10 +78,18 @@ class SongWorkshop extends React.Component {
                                 />
                             </Col>
                             <Col>
+                                
+                                <div style={{marginBottom: '1%'}}>
+                                    <Button value="naturalKeys" className="accidental" style={{marginRight: '2%'}}>Natural</Button>
+                                    <Button value="sharpKeys" className="accidental" style={{marginRight: '2%'}}>Sharp</Button>
+                                    <Button value="flatKeys" className="accidental" style={{marginRight: '2%'}}>Flat</Button>
+                                </div>
                                 <Selector 
+                                    // style={{display: 'block', float: 'left'}}
                                     handleOnChange={this.handleKeyChange}
-                                    options={["D", "E", "F", "G", "A", "B", "C"]}
-                                    name="name" />
+                                    options={flatKeyNames}
+                                    name="name" 
+                                />
                             </Col>
                             <Col>
                                 <Selector 
@@ -90,6 +104,7 @@ class SongWorkshop extends React.Component {
                         </Row>
                         <Row>
                             <SongField />
+                            <Player />
                         </Row>
                     </Col>
                     <Col>
