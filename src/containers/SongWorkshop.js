@@ -21,7 +21,6 @@ class SongWorkshop extends React.Component {
                 name: "C",
             },
             instrument: 'Piano',
-            songs: []
         };
     }
 

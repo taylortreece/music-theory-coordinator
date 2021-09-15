@@ -2,7 +2,12 @@ import React from 'react'
 
 const Banner = ({ instrument, style }) => {
     return (
-        <img key={instrument} src={`${instrument}.jpg`} alt={`${instrument}`} style={style}/>
+        <img 
+            key={instrument} 
+            src={`${instrument}.png`} 
+            alt={`${instrument}`} 
+            style={style}
+        />
     )
 }
 

@@ -1,30 +1,17 @@
 import React from 'react'
+import Chord from './Chord'
 
 class Chords extends React.Component {
 
-    onComponentDidMount() {
-    }
-
     render() {
         return (
-            <ul>
-                {this.props.scale.chords.map(chord => (
-                <li 
-                    key={chord.name}
-                    style={{
-                    display: 'block', 
-                    float: 'left', 
-                    textDecoration: 'none', 
-                    width: '12%',
-                    border: 'solid',
-                    marginTop: '2%',
-                    marginLeft: '2%',
-                    textAlign: 'center',
-                    }}
-                >
-                {chord.name}
-                </li>))}
-            </ul>
+            this.props.scale.chords.map(chord => ( 
+                <Chord 
+                    className='chord' 
+                    id={chord.id} 
+                    key={chord.id} 
+                    chord={chord}/> 
+                ))
             )
         }
     }
