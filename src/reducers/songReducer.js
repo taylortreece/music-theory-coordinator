@@ -7,11 +7,11 @@ export default function songReducer(state = {
 
         case "ADD_CHORD": 
 
-        return {...state, chords: state.chords.concat(action.chord)}
+        return {chords: state.chords.concat(action.chord)}
 
         case "REMOVE_CHORD":
 
-        return {...state, chords: state.chords.filter(chord => (chord.songChordId !== action.chord.songChordId))}
+        return {chords: state.chords.filter(chord => (chord.songChordId !== action.chord.songChordId))}
     
 
     default:

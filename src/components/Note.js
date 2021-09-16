@@ -1,14 +1,14 @@
 import { connect } from 'react-redux'
 import React from 'react'
-import { TickSignal } from 'tone/build/esm/core/clock/TickSignal';
 
 class Note extends React.Component {
     constructor() {
         super();
         this.state = {
+            name: '',
             position: 4,
             url: '',
-            name: ''
+            urlName: ''
         }
     }
 
@@ -32,7 +32,11 @@ class Note extends React.Component {
             name = noteNames[0]
         }
 
-        this.setState({ name: name })
+        this.setState(state => ( {
+            name: name,
+            urlName: name + state.position, 
+            id: this.props.note.id
+        } ))
 
         return name
     }
@@ -45,9 +49,7 @@ class Note extends React.Component {
     componentDidUpdate() {
         this.props.updateChordNotes(this.state)
     }
-
     
-
     render() {
         return (
             <div>
