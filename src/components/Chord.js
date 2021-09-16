@@ -3,6 +3,9 @@ import { ListGroup } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Note from './Note';
+import { connect } from 'react-redux'
+import { updateChord } from '../actions/song'
+
 // import { updateChord } from '../actions/song';
 
 
@@ -25,17 +28,10 @@ class Chord extends React.Component {
               ]
             }
         })
-        //If I decide to to arpeggios, the order of notes cannot change. Try to make this work:
-        //
-        // updatedNotes: [
-        //     ...state.updatedNotes.slice(0, index),
-        //     Object.assign({}, note),
-        //     ...state.updatedNotes.slice(index + 1)
-        // ] 
     }
 
     updatedChord = () => {
-        this.props.chord.updatedNotes = this.state.updatedNotes
+        this.props.chord.updatedNotes = this.state.updatedNotes;
         return this.props.chord
     }
     
@@ -77,4 +73,4 @@ class Chord extends React.Component {
     }
 }
 
-export default Chord;
+export default connect(null, { updateChord })(Chord);

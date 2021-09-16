@@ -21,7 +21,7 @@ class Player extends React.Component {
         }).toDestination();
         
         Tone.loaded().then(() => {
-            sampler.triggerAttackRelease(["A4", "C5", "E3"], 4);
+            sampler.triggerAttackRelease(["B4", "C5", "E3"], 4);
         })
         
         // const synth = new Tone.Synth().toDestination();
