@@ -5,24 +5,15 @@ class Note extends React.Component {
     constructor() {
         super();
         this.state = {
-            name: '',
+            name: "",
             position: 4,
             url: '',
             urlName: ''
         }
     }
 
-    changePosition = (action) => {
-        this.setState((state) => {
-            let num = action === "plus" ? state.position += 1 : state.position -= 1
-            return {
-                position: num,
-                url: `${this.parseNoteName(this.props.note).replace('♯', 's')}${num}.mp3`
-            }
-        })
-    }
-
-    parseNoteName = (note) => {
+    createNoteName = () => {
+        let note = this.props.note
         let name;
 
         const noteNames = note.name.split('/')
@@ -32,35 +23,14 @@ class Note extends React.Component {
             name = noteNames[0]
         }
 
-        this.setState(state => ( {
-            name: name,
-            urlName: name + state.position, 
-            id: this.props.note.id
-        } ))
-
         return name
-    }
 
-    componentDidMount() {
-        let name = this.parseNoteName(this.props.note).replace('♯', 's')
-        this.setState({ url: `${name}4.mp3`})
-    }
-
-    componentDidUpdate() {
-        this.props.updateChordNotes(this.state)
     }
     
     render() {
         return (
             <div>
-                <h6 style={{display: 'block', float: 'left', marginRight: '50%'}}>{this.state.name}</h6>
-                    {this.props.buttonAction === "remove" ?
-                    <form>
-                        <div onClick={() => this.changePosition("minus")} style={{display: 'block', float: 'left'}}>-</div>
-                            <p style={{display: 'block', float: 'left'}}>{this.state.position}</p>
-                        <div onClick={() => this.changePosition("plus")} style={{display: 'block', float: 'left'}}>+</div>
-                    </form> :
-                    null}
+                <h6 style={{display: 'block', float: 'left', marginRight: '50%'}}>{this.createNoteName(this.props.note)}</h6>
             </div>
         )
     }

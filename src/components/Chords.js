@@ -11,8 +11,8 @@ class Chords extends React.Component {
 
     render() {
         return (
-            this.props.scale.chords.map(chord => ( 
-                <Chord 
+            this.props.scale.chords.map(chord => { 
+                return <Chord 
                     className='chord' 
                     id={chord.id} 
                     key={chord.id} 
@@ -21,9 +21,15 @@ class Chords extends React.Component {
                     variant="outline-success"
                     action={this.onHandleClick}
                     />
-                ))
+               })
             )
         }
     }
+
+    const mapStateToProps = state => {
+        return {
+            chosenKey: state.keyReducer.chosenKey
+        }
+    }
             
-    export default connect(null, { addChord })(Chords);
+    export default connect(mapStateToProps, { addChord })(Chords);

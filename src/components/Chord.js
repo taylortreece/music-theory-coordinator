@@ -3,37 +3,8 @@ import { ListGroup } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Note from './Note';
-import { connect } from 'react-redux'
-import { updateChord } from '../actions/song'
-
-// import { updateChord } from '../actions/song';
-
 
 class Chord extends React.Component {
-
-    constructor() {
-        super();
-        this.state = {
-            updatedNotes: []
-        }
-    }
-
-    updateChordNotes = (note) => {
-        this.setState((state) => {
-            return { 
-                updatedNotes: [
-                    ...state.updatedNotes.filter((updatedNote,) => (
-                    updatedNote.name !== note.name
-                )), note
-              ]
-            }
-        })
-    }
-
-    updatedChord = () => {
-        this.props.chord.updatedNotes = this.state.updatedNotes;
-        return this.props.chord
-    }
     
     render() {
         return (
@@ -49,6 +20,7 @@ class Chord extends React.Component {
                 <Card.Header>
                     {this.props.chord.name.replace("_", " ")}
                 </Card.Header>
+                
                 {this.props.chord.notes.map(note => (
                     <ListGroup variant="flush" key={note.id}>
                         <ListGroup.Item>
@@ -56,13 +28,14 @@ class Chord extends React.Component {
                             note={note} 
                             buttonAction={this.props.buttonAction} 
                             updateChordNotes={this.updateChordNotes}
+                            consoleNoteInfo={this.consoleNoteInfo}
                             />
                         </ListGroup.Item>
                     </ListGroup>
                 ))}
                 <Card.Footer>
                     <Button 
-                    onClick={() => this.props.action(this.updatedChord())} 
+                    onClick={() => this.props.action(this.props.chord)} 
                     variant={this.props.variant}
                     >
                         {this.props.buttonAction}
@@ -73,4 +46,4 @@ class Chord extends React.Component {
     }
 }
 
-export default connect(null, { updateChord })(Chord);
+export default Chord;

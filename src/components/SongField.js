@@ -4,7 +4,6 @@ import Chord from './Chord'
 import { v4 as uuidv4 } from 'uuid'
 import { removeChord } from '../actions/song'
 
-
 class SongField extends React.Component {
     onHandleClick = (chord) => {
         this.props.removeChord(chord)
@@ -17,7 +16,6 @@ class SongField extends React.Component {
     // }
 
     render() {
-        console.log(this.props.chords[0])
         return (
             <div className="songField"
                 style={{

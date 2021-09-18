@@ -6,32 +6,15 @@ export default function songReducer(state = {
     switch(action.type) {
 
         case "ADD_CHORD": 
-
+        console.log(action)
+        const newChord = {...action.chord, songChordId: uuidv4() }
         return {
             ...state,
             chords: [
             ...state.chords, 
-            {
-                name: action.chord.name,
-                songChordId: uuidv4(),
-                updatedNotes: action.chord.updatedNotes,
-                notes: action.chord.notes
-            }
+            newChord
         ]}
-
-        case "UPDATE_CHORD":
-           let index = state.chords.findIndex(chord => chord.songChordId === action.chord.songChordId);
-        debugger
-        return {...state,
-            chords: [
-                ...state.chords.slice(0, index),
-                Object.assign({}, action.chord),
-                ...state.chords.slice(index + 1)
-            ]
-        }
-
-        // return {chords: state.chords.concat(action.chord)}
-
+        
         case "REMOVE_CHORD":
 
         return {

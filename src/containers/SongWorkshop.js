@@ -1,13 +1,13 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { fetchKey } from '../actions/key'
+import Player from '../components/Player'
 import { naturalKeyNames, sharpKeyNames, flatKeyNames } from '../data/keyNames'
 
 import Banner from '../components/Banner'
 import Selector from '../components/Selector'
 import UserSongs from '../components/UserSongs'
 import SongField from '../components/SongField'
-import Player from '../components/Player'
 import Chords from '../components/Chords'
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
@@ -42,7 +42,6 @@ class SongWorkshop extends React.Component {
             [event.target.name]: event.target.value
             }
         })
-        console.log(this.state)
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
