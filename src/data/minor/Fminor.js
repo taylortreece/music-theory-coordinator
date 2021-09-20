@@ -1,4328 +1,4328 @@
-// 20210914182535
+// 20210920170528
 // http://localhost:3001/keys/25
 
 const Fminor = {
-    "id": 25,
-    "name": "F",
-    "accidental": null,
-    "key_type": "minor",
-    "primary_scale_id": 102,
-    "created_at": "2021-08-12T18:58:09.531Z",
-    "updated_at": "2021-08-12T19:00:20.854Z",
-    "scales": [
-      {
-        "id": 66,
-        "name": "G♯/A♭ Ionian",
-        "scale_type": "Ionian",
-        "degrees": {
-          "I": "major, major_seventh",
-          "ii": "minor, minor_seventh",
-          "iii": "minor, minor_seventh",
-          "IV": "major, major_seventh",
-          "V": "major, dominant_seventh",
-          "vi": "minor, minor_seventh",
-          "viidim": "diminished, minor_seventh_flat_five"
-        },
-        "intervals": [
-          2,
-          2,
-          1,
-          2,
-          2,
-          2
-        ],
-        "created_at": "2021-08-12T18:59:34.931Z",
-        "updated_at": "2021-08-12T18:59:34.931Z",
-        "notes": [
-          {
-            "id": 9,
-            "name": "G♯/A♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.209Z",
-            "updated_at": "2021-08-12T18:58:08.209Z"
-          },
-          {
-            "id": 11,
-            "name": "A♯/B♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.298Z",
-            "updated_at": "2021-08-12T18:58:08.298Z"
-          },
-          {
-            "id": 1,
-            "name": "C",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.854Z",
-            "updated_at": "2021-08-12T18:58:07.854Z"
-          },
-          {
-            "id": 2,
-            "name": "C♯/D♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.895Z",
-            "updated_at": "2021-08-12T18:58:07.895Z"
-          },
-          {
-            "id": 4,
-            "name": "D♯/E♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.996Z",
-            "updated_at": "2021-08-12T18:58:07.996Z"
-          },
-          {
-            "id": 6,
-            "name": "F",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.086Z",
-            "updated_at": "2021-08-12T18:58:08.086Z"
-          },
-          {
-            "id": 8,
-            "name": "G",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.174Z",
-            "updated_at": "2021-08-12T18:58:08.174Z"
-          }
-        ],
-        "chords": [
-          {
-            "id": 23,
-            "name": "G♯/A♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:26.426Z",
-            "updated_at": "2021-08-12T18:58:26.426Z",
-            "notes": [
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              }
-            ]
-          },
-          {
-            "id": 44,
-            "name": "G♯/A♭ major_seventh",
-            "accidental": null,
-            "chord_type": "major_seventh",
-            "created_at": "2021-08-12T18:58:48.227Z",
-            "updated_at": "2021-08-12T18:58:48.227Z",
-            "notes": [
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 7,
-                "name": "F♯/G♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.130Z",
-                "updated_at": "2021-08-12T18:58:08.130Z"
-              }
-            ]
-          },
-          {
-            "id": 25,
-            "name": "A♯/B♭ minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:26.918Z",
-            "updated_at": "2021-08-12T18:58:26.918Z",
-            "notes": [
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              }
-            ]
-          },
-          {
-            "id": 26,
-            "name": "A♯/B♭ minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:27.136Z",
-            "updated_at": "2021-08-12T18:58:27.136Z",
-            "notes": [
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              }
-            ]
-          },
-          {
-            "id": 47,
-            "name": "C minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:48.968Z",
-            "updated_at": "2021-08-12T18:58:48.968Z",
-            "notes": [
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              }
-            ]
-          },
-          {
-            "id": 48,
-            "name": "C minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:49.172Z",
-            "updated_at": "2021-08-12T18:58:49.172Z",
-            "notes": [
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 10,
-                "name": "A",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.253Z",
-                "updated_at": "2021-08-12T18:58:08.253Z"
-              }
-            ]
-          },
-          {
-            "id": 15,
-            "name": "C♯/D♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:24.398Z",
-            "updated_at": "2021-08-12T18:58:24.398Z",
-            "notes": [
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              }
-            ]
-          },
-          {
-            "id": 16,
-            "name": "C♯/D♭ major_seventh",
-            "accidental": null,
-            "chord_type": "major_seventh",
-            "created_at": "2021-08-12T18:58:24.597Z",
-            "updated_at": "2021-08-12T18:58:24.597Z",
-            "notes": [
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 12,
-                "name": "B",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.343Z",
-                "updated_at": "2021-08-12T18:58:08.343Z"
-              }
-            ]
-          },
-          {
-            "id": 40,
-            "name": "D♯/E♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:47.040Z",
-            "updated_at": "2021-08-12T18:58:47.040Z",
-            "notes": [
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              }
-            ]
-          },
-          {
-            "id": 73,
-            "name": "D♯/E♭ dominant_seventh",
-            "accidental": null,
-            "chord_type": "dominant_seventh",
-            "created_at": "2021-08-12T18:59:38.192Z",
-            "updated_at": "2021-08-12T18:59:38.192Z",
-            "notes": [
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              }
-            ]
-          },
-          {
-            "id": 19,
-            "name": "F minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:25.359Z",
-            "updated_at": "2021-08-12T18:58:25.359Z",
-            "notes": [
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              }
-            ]
-          },
-          {
-            "id": 20,
-            "name": "F minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:25.674Z",
-            "updated_at": "2021-08-12T18:58:25.674Z",
-            "notes": [
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 3,
-                "name": "D",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.939Z",
-                "updated_at": "2021-08-12T18:58:07.939Z"
-              }
-            ]
-          },
-          {
-            "id": 74,
-            "name": "G diminished",
-            "accidental": null,
-            "chord_type": "diminished",
-            "created_at": "2021-08-12T18:59:38.540Z",
-            "updated_at": "2021-08-12T18:59:38.540Z",
-            "notes": [
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              }
-            ]
-          },
-          {
-            "id": 75,
-            "name": "G minor_seventh_flat_five",
-            "accidental": null,
-            "chord_type": "minor_seventh_flat_five",
-            "created_at": "2021-08-12T18:59:38.754Z",
-            "updated_at": "2021-08-12T18:59:38.754Z",
-            "notes": [
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 5,
-                "name": "E",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.041Z",
-                "updated_at": "2021-08-12T18:58:08.041Z"
-              }
-            ]
-          }
-        ]
+  "id": 25,
+  "name": "F",
+  "accidental": null,
+  "key_type": "minor",
+  "primary_scale_id": 102,
+  "created_at": "2021-09-20T21:20:54.636Z",
+  "updated_at": "2021-09-20T21:23:14.332Z",
+  "scales": [
+    {
+      "id": 66,
+      "name": "G♯/A♭ Ionian",
+      "scale_type": "Ionian",
+      "degrees": {
+        "I": "major, major_seventh",
+        "ii": "minor, minor_seventh",
+        "iii": "minor, minor_seventh",
+        "IV": "major, major_seventh",
+        "V": "major, dominant_seventh",
+        "vi": "minor, minor_seventh",
+        "viidim": "diminished, minor_seventh_flat_five"
       },
-      {
-        "id": 67,
-        "name": "A♯/B♭ Dorian",
-        "scale_type": "Dorian",
-        "degrees": {
-          "ii": "minor, minor_seventh",
-          "iii": "minor, minor_seventh",
-          "IV": "major, major_seventh",
-          "V": "major, dominant_seventh",
-          "vi": "minor, minor_seventh",
-          "viidim": "diminished, minor_seventh_flat_five",
-          "I": "major, major_seventh"
+      "intervals": [
+        2,
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "created_at": "2021-09-20T21:22:28.729Z",
+      "updated_at": "2021-09-20T21:22:28.729Z",
+      "notes": [
+        {
+          "id": 9,
+          "name": "G♯/A♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.357Z",
+          "updated_at": "2021-09-20T21:20:53.357Z"
         },
-        "intervals": [
-          2,
-          1,
-          2,
-          2,
-          2,
-          1
-        ],
-        "created_at": "2021-08-12T18:59:35.018Z",
-        "updated_at": "2021-08-12T18:59:35.018Z",
-        "notes": [
-          {
-            "id": 11,
-            "name": "A♯/B♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.298Z",
-            "updated_at": "2021-08-12T18:58:08.298Z"
-          },
-          {
-            "id": 1,
-            "name": "C",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.854Z",
-            "updated_at": "2021-08-12T18:58:07.854Z"
-          },
-          {
-            "id": 2,
-            "name": "C♯/D♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.895Z",
-            "updated_at": "2021-08-12T18:58:07.895Z"
-          },
-          {
-            "id": 4,
-            "name": "D♯/E♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.996Z",
-            "updated_at": "2021-08-12T18:58:07.996Z"
-          },
-          {
-            "id": 6,
-            "name": "F",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.086Z",
-            "updated_at": "2021-08-12T18:58:08.086Z"
-          },
-          {
-            "id": 8,
-            "name": "G",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.174Z",
-            "updated_at": "2021-08-12T18:58:08.174Z"
-          },
-          {
-            "id": 9,
-            "name": "G♯/A♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.209Z",
-            "updated_at": "2021-08-12T18:58:08.209Z"
-          }
-        ],
-        "chords": [
-          {
-            "id": 25,
-            "name": "A♯/B♭ minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:26.918Z",
-            "updated_at": "2021-08-12T18:58:26.918Z",
-            "notes": [
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              }
-            ]
-          },
-          {
-            "id": 26,
-            "name": "A♯/B♭ minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:27.136Z",
-            "updated_at": "2021-08-12T18:58:27.136Z",
-            "notes": [
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              }
-            ]
-          },
-          {
-            "id": 47,
-            "name": "C minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:48.968Z",
-            "updated_at": "2021-08-12T18:58:48.968Z",
-            "notes": [
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              }
-            ]
-          },
-          {
-            "id": 48,
-            "name": "C minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:49.172Z",
-            "updated_at": "2021-08-12T18:58:49.172Z",
-            "notes": [
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 10,
-                "name": "A",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.253Z",
-                "updated_at": "2021-08-12T18:58:08.253Z"
-              }
-            ]
-          },
-          {
-            "id": 15,
-            "name": "C♯/D♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:24.398Z",
-            "updated_at": "2021-08-12T18:58:24.398Z",
-            "notes": [
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              }
-            ]
-          },
-          {
-            "id": 16,
-            "name": "C♯/D♭ major_seventh",
-            "accidental": null,
-            "chord_type": "major_seventh",
-            "created_at": "2021-08-12T18:58:24.597Z",
-            "updated_at": "2021-08-12T18:58:24.597Z",
-            "notes": [
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 12,
-                "name": "B",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.343Z",
-                "updated_at": "2021-08-12T18:58:08.343Z"
-              }
-            ]
-          },
-          {
-            "id": 40,
-            "name": "D♯/E♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:47.040Z",
-            "updated_at": "2021-08-12T18:58:47.040Z",
-            "notes": [
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              }
-            ]
-          },
-          {
-            "id": 73,
-            "name": "D♯/E♭ dominant_seventh",
-            "accidental": null,
-            "chord_type": "dominant_seventh",
-            "created_at": "2021-08-12T18:59:38.192Z",
-            "updated_at": "2021-08-12T18:59:38.192Z",
-            "notes": [
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              }
-            ]
-          },
-          {
-            "id": 19,
-            "name": "F minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:25.359Z",
-            "updated_at": "2021-08-12T18:58:25.359Z",
-            "notes": [
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              }
-            ]
-          },
-          {
-            "id": 20,
-            "name": "F minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:25.674Z",
-            "updated_at": "2021-08-12T18:58:25.674Z",
-            "notes": [
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 3,
-                "name": "D",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.939Z",
-                "updated_at": "2021-08-12T18:58:07.939Z"
-              }
-            ]
-          },
-          {
-            "id": 74,
-            "name": "G diminished",
-            "accidental": null,
-            "chord_type": "diminished",
-            "created_at": "2021-08-12T18:59:38.540Z",
-            "updated_at": "2021-08-12T18:59:38.540Z",
-            "notes": [
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              }
-            ]
-          },
-          {
-            "id": 75,
-            "name": "G minor_seventh_flat_five",
-            "accidental": null,
-            "chord_type": "minor_seventh_flat_five",
-            "created_at": "2021-08-12T18:59:38.754Z",
-            "updated_at": "2021-08-12T18:59:38.754Z",
-            "notes": [
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 5,
-                "name": "E",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.041Z",
-                "updated_at": "2021-08-12T18:58:08.041Z"
-              }
-            ]
-          },
-          {
-            "id": 23,
-            "name": "G♯/A♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:26.426Z",
-            "updated_at": "2021-08-12T18:58:26.426Z",
-            "notes": [
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              }
-            ]
-          },
-          {
-            "id": 44,
-            "name": "G♯/A♭ major_seventh",
-            "accidental": null,
-            "chord_type": "major_seventh",
-            "created_at": "2021-08-12T18:58:48.227Z",
-            "updated_at": "2021-08-12T18:58:48.227Z",
-            "notes": [
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 7,
-                "name": "F♯/G♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.130Z",
-                "updated_at": "2021-08-12T18:58:08.130Z"
-              }
-            ]
-          }
-        ]
+        {
+          "id": 11,
+          "name": "A♯/B♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.446Z",
+          "updated_at": "2021-09-20T21:20:53.446Z"
+        },
+        {
+          "id": 1,
+          "name": "C",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:52.999Z",
+          "updated_at": "2021-09-20T21:20:52.999Z"
+        },
+        {
+          "id": 2,
+          "name": "C♯/D♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.043Z",
+          "updated_at": "2021-09-20T21:20:53.043Z"
+        },
+        {
+          "id": 4,
+          "name": "D♯/E♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.133Z",
+          "updated_at": "2021-09-20T21:20:53.133Z"
+        },
+        {
+          "id": 6,
+          "name": "F",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.223Z",
+          "updated_at": "2021-09-20T21:20:53.223Z"
+        },
+        {
+          "id": 8,
+          "name": "G",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.312Z",
+          "updated_at": "2021-09-20T21:20:53.312Z"
+        }
+      ],
+      "chords": [
+        {
+          "id": 23,
+          "name": "G♯/A♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:12.446Z",
+          "updated_at": "2021-09-20T21:21:12.446Z",
+          "notes": [
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "name": "G♯/A♭ major_seventh",
+          "accidental": null,
+          "chord_type": "major_seventh",
+          "created_at": "2021-09-20T21:21:42.221Z",
+          "updated_at": "2021-09-20T21:21:42.221Z",
+          "notes": [
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "A♯/B♭ minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:12.940Z",
+          "updated_at": "2021-09-20T21:21:12.940Z",
+          "notes": [
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "A♯/B♭ minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:13.167Z",
+          "updated_at": "2021-09-20T21:21:13.167Z",
+          "notes": [
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "name": "C minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:42.908Z",
+          "updated_at": "2021-09-20T21:21:42.908Z",
+          "notes": [
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "name": "C minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:43.123Z",
+          "updated_at": "2021-09-20T21:21:43.123Z",
+          "notes": [
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "C♯/D♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:10.462Z",
+          "updated_at": "2021-09-20T21:21:10.462Z",
+          "notes": [
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "C♯/D♭ major_seventh",
+          "accidental": null,
+          "chord_type": "major_seventh",
+          "created_at": "2021-09-20T21:21:10.683Z",
+          "updated_at": "2021-09-20T21:21:10.683Z",
+          "notes": [
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "name": "D♯/E♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:41.068Z",
+          "updated_at": "2021-09-20T21:21:41.068Z",
+          "notes": [
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            }
+          ]
+        },
+        {
+          "id": 73,
+          "name": "D♯/E♭ dominant_seventh",
+          "accidental": null,
+          "chord_type": "dominant_seventh",
+          "created_at": "2021-09-20T21:22:32.029Z",
+          "updated_at": "2021-09-20T21:22:32.029Z",
+          "notes": [
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "F minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:11.447Z",
+          "updated_at": "2021-09-20T21:21:11.447Z",
+          "notes": [
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "F minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:11.672Z",
+          "updated_at": "2021-09-20T21:21:11.672Z",
+          "notes": [
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "name": "G diminished",
+          "accidental": null,
+          "chord_type": "diminished",
+          "created_at": "2021-09-20T21:22:32.388Z",
+          "updated_at": "2021-09-20T21:22:32.388Z",
+          "notes": [
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "name": "G minor_seventh_flat_five",
+          "accidental": null,
+          "chord_type": "minor_seventh_flat_five",
+          "created_at": "2021-09-20T21:22:32.614Z",
+          "updated_at": "2021-09-20T21:22:32.614Z",
+          "notes": [
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 5,
+              "name": "E",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.178Z",
+              "updated_at": "2021-09-20T21:20:53.178Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "A♯/B♭ Dorian",
+      "scale_type": "Dorian",
+      "degrees": {
+        "ii": "minor, minor_seventh",
+        "iii": "minor, minor_seventh",
+        "IV": "major, major_seventh",
+        "V": "major, dominant_seventh",
+        "vi": "minor, minor_seventh",
+        "viidim": "diminished, minor_seventh_flat_five",
+        "I": "major, major_seventh"
       },
-      {
-        "id": 68,
-        "name": "C Phryigian",
-        "scale_type": "Phryigian",
-        "degrees": {
-          "iii": "minor, minor_seventh",
-          "IV": "major, major_seventh",
-          "V": "major, dominant_seventh",
-          "vi": "minor, minor_seventh",
-          "viidim": "diminished, minor_seventh_flat_five",
-          "I": "major, major_seventh",
-          "ii": "minor, minor_seventh"
+      "intervals": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "created_at": "2021-09-20T21:22:28.817Z",
+      "updated_at": "2021-09-20T21:22:28.817Z",
+      "notes": [
+        {
+          "id": 11,
+          "name": "A♯/B♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.446Z",
+          "updated_at": "2021-09-20T21:20:53.446Z"
         },
-        "intervals": [
-          1,
-          2,
-          2,
-          2,
-          1,
-          2
-        ],
-        "created_at": "2021-08-12T18:59:35.108Z",
-        "updated_at": "2021-08-12T18:59:35.108Z",
-        "notes": [
-          {
-            "id": 1,
-            "name": "C",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.854Z",
-            "updated_at": "2021-08-12T18:58:07.854Z"
-          },
-          {
-            "id": 2,
-            "name": "C♯/D♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.895Z",
-            "updated_at": "2021-08-12T18:58:07.895Z"
-          },
-          {
-            "id": 4,
-            "name": "D♯/E♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.996Z",
-            "updated_at": "2021-08-12T18:58:07.996Z"
-          },
-          {
-            "id": 6,
-            "name": "F",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.086Z",
-            "updated_at": "2021-08-12T18:58:08.086Z"
-          },
-          {
-            "id": 8,
-            "name": "G",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.174Z",
-            "updated_at": "2021-08-12T18:58:08.174Z"
-          },
-          {
-            "id": 9,
-            "name": "G♯/A♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.209Z",
-            "updated_at": "2021-08-12T18:58:08.209Z"
-          },
-          {
-            "id": 11,
-            "name": "A♯/B♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.298Z",
-            "updated_at": "2021-08-12T18:58:08.298Z"
-          }
-        ],
-        "chords": [
-          {
-            "id": 47,
-            "name": "C minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:48.968Z",
-            "updated_at": "2021-08-12T18:58:48.968Z",
-            "notes": [
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              }
-            ]
-          },
-          {
-            "id": 48,
-            "name": "C minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:49.172Z",
-            "updated_at": "2021-08-12T18:58:49.172Z",
-            "notes": [
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 10,
-                "name": "A",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.253Z",
-                "updated_at": "2021-08-12T18:58:08.253Z"
-              }
-            ]
-          },
-          {
-            "id": 15,
-            "name": "C♯/D♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:24.398Z",
-            "updated_at": "2021-08-12T18:58:24.398Z",
-            "notes": [
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              }
-            ]
-          },
-          {
-            "id": 16,
-            "name": "C♯/D♭ major_seventh",
-            "accidental": null,
-            "chord_type": "major_seventh",
-            "created_at": "2021-08-12T18:58:24.597Z",
-            "updated_at": "2021-08-12T18:58:24.597Z",
-            "notes": [
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 12,
-                "name": "B",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.343Z",
-                "updated_at": "2021-08-12T18:58:08.343Z"
-              }
-            ]
-          },
-          {
-            "id": 40,
-            "name": "D♯/E♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:47.040Z",
-            "updated_at": "2021-08-12T18:58:47.040Z",
-            "notes": [
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              }
-            ]
-          },
-          {
-            "id": 73,
-            "name": "D♯/E♭ dominant_seventh",
-            "accidental": null,
-            "chord_type": "dominant_seventh",
-            "created_at": "2021-08-12T18:59:38.192Z",
-            "updated_at": "2021-08-12T18:59:38.192Z",
-            "notes": [
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              }
-            ]
-          },
-          {
-            "id": 19,
-            "name": "F minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:25.359Z",
-            "updated_at": "2021-08-12T18:58:25.359Z",
-            "notes": [
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              }
-            ]
-          },
-          {
-            "id": 20,
-            "name": "F minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:25.674Z",
-            "updated_at": "2021-08-12T18:58:25.674Z",
-            "notes": [
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 3,
-                "name": "D",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.939Z",
-                "updated_at": "2021-08-12T18:58:07.939Z"
-              }
-            ]
-          },
-          {
-            "id": 74,
-            "name": "G diminished",
-            "accidental": null,
-            "chord_type": "diminished",
-            "created_at": "2021-08-12T18:59:38.540Z",
-            "updated_at": "2021-08-12T18:59:38.540Z",
-            "notes": [
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              }
-            ]
-          },
-          {
-            "id": 75,
-            "name": "G minor_seventh_flat_five",
-            "accidental": null,
-            "chord_type": "minor_seventh_flat_five",
-            "created_at": "2021-08-12T18:59:38.754Z",
-            "updated_at": "2021-08-12T18:59:38.754Z",
-            "notes": [
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 5,
-                "name": "E",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.041Z",
-                "updated_at": "2021-08-12T18:58:08.041Z"
-              }
-            ]
-          },
-          {
-            "id": 23,
-            "name": "G♯/A♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:26.426Z",
-            "updated_at": "2021-08-12T18:58:26.426Z",
-            "notes": [
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              }
-            ]
-          },
-          {
-            "id": 44,
-            "name": "G♯/A♭ major_seventh",
-            "accidental": null,
-            "chord_type": "major_seventh",
-            "created_at": "2021-08-12T18:58:48.227Z",
-            "updated_at": "2021-08-12T18:58:48.227Z",
-            "notes": [
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 7,
-                "name": "F♯/G♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.130Z",
-                "updated_at": "2021-08-12T18:58:08.130Z"
-              }
-            ]
-          },
-          {
-            "id": 25,
-            "name": "A♯/B♭ minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:26.918Z",
-            "updated_at": "2021-08-12T18:58:26.918Z",
-            "notes": [
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              }
-            ]
-          },
-          {
-            "id": 26,
-            "name": "A♯/B♭ minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:27.136Z",
-            "updated_at": "2021-08-12T18:58:27.136Z",
-            "notes": [
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              }
-            ]
-          }
-        ]
+        {
+          "id": 1,
+          "name": "C",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:52.999Z",
+          "updated_at": "2021-09-20T21:20:52.999Z"
+        },
+        {
+          "id": 2,
+          "name": "C♯/D♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.043Z",
+          "updated_at": "2021-09-20T21:20:53.043Z"
+        },
+        {
+          "id": 4,
+          "name": "D♯/E♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.133Z",
+          "updated_at": "2021-09-20T21:20:53.133Z"
+        },
+        {
+          "id": 6,
+          "name": "F",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.223Z",
+          "updated_at": "2021-09-20T21:20:53.223Z"
+        },
+        {
+          "id": 8,
+          "name": "G",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.312Z",
+          "updated_at": "2021-09-20T21:20:53.312Z"
+        },
+        {
+          "id": 9,
+          "name": "G♯/A♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.357Z",
+          "updated_at": "2021-09-20T21:20:53.357Z"
+        }
+      ],
+      "chords": [
+        {
+          "id": 25,
+          "name": "A♯/B♭ minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:12.940Z",
+          "updated_at": "2021-09-20T21:21:12.940Z",
+          "notes": [
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "A♯/B♭ minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:13.167Z",
+          "updated_at": "2021-09-20T21:21:13.167Z",
+          "notes": [
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "name": "C minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:42.908Z",
+          "updated_at": "2021-09-20T21:21:42.908Z",
+          "notes": [
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "name": "C minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:43.123Z",
+          "updated_at": "2021-09-20T21:21:43.123Z",
+          "notes": [
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "C♯/D♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:10.462Z",
+          "updated_at": "2021-09-20T21:21:10.462Z",
+          "notes": [
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "C♯/D♭ major_seventh",
+          "accidental": null,
+          "chord_type": "major_seventh",
+          "created_at": "2021-09-20T21:21:10.683Z",
+          "updated_at": "2021-09-20T21:21:10.683Z",
+          "notes": [
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "name": "D♯/E♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:41.068Z",
+          "updated_at": "2021-09-20T21:21:41.068Z",
+          "notes": [
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            }
+          ]
+        },
+        {
+          "id": 73,
+          "name": "D♯/E♭ dominant_seventh",
+          "accidental": null,
+          "chord_type": "dominant_seventh",
+          "created_at": "2021-09-20T21:22:32.029Z",
+          "updated_at": "2021-09-20T21:22:32.029Z",
+          "notes": [
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "F minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:11.447Z",
+          "updated_at": "2021-09-20T21:21:11.447Z",
+          "notes": [
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "F minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:11.672Z",
+          "updated_at": "2021-09-20T21:21:11.672Z",
+          "notes": [
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "name": "G diminished",
+          "accidental": null,
+          "chord_type": "diminished",
+          "created_at": "2021-09-20T21:22:32.388Z",
+          "updated_at": "2021-09-20T21:22:32.388Z",
+          "notes": [
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "name": "G minor_seventh_flat_five",
+          "accidental": null,
+          "chord_type": "minor_seventh_flat_five",
+          "created_at": "2021-09-20T21:22:32.614Z",
+          "updated_at": "2021-09-20T21:22:32.614Z",
+          "notes": [
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 5,
+              "name": "E",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.178Z",
+              "updated_at": "2021-09-20T21:20:53.178Z"
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "G♯/A♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:12.446Z",
+          "updated_at": "2021-09-20T21:21:12.446Z",
+          "notes": [
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "name": "G♯/A♭ major_seventh",
+          "accidental": null,
+          "chord_type": "major_seventh",
+          "created_at": "2021-09-20T21:21:42.221Z",
+          "updated_at": "2021-09-20T21:21:42.221Z",
+          "notes": [
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "C Phryigian",
+      "scale_type": "Phryigian",
+      "degrees": {
+        "iii": "minor, minor_seventh",
+        "IV": "major, major_seventh",
+        "V": "major, dominant_seventh",
+        "vi": "minor, minor_seventh",
+        "viidim": "diminished, minor_seventh_flat_five",
+        "I": "major, major_seventh",
+        "ii": "minor, minor_seventh"
       },
-      {
-        "id": 69,
-        "name": "C♯/D♭ Lydian",
-        "scale_type": "Lydian",
-        "degrees": {
-          "IV": "major, major_seventh",
-          "V": "major, dominant_seventh",
-          "vi": "minor, minor_seventh",
-          "viidim": "diminished, minor_seventh_flat_five",
-          "I": "major, major_seventh",
-          "ii": "minor, minor_seventh",
-          "iii": "minor, minor_seventh"
+      "intervals": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "created_at": "2021-09-20T21:22:28.906Z",
+      "updated_at": "2021-09-20T21:22:28.906Z",
+      "notes": [
+        {
+          "id": 1,
+          "name": "C",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:52.999Z",
+          "updated_at": "2021-09-20T21:20:52.999Z"
         },
-        "intervals": [
-          2,
-          2,
-          2,
-          1,
-          2,
-          2
-        ],
-        "created_at": "2021-08-12T18:59:35.210Z",
-        "updated_at": "2021-08-12T18:59:35.210Z",
-        "notes": [
-          {
-            "id": 2,
-            "name": "C♯/D♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.895Z",
-            "updated_at": "2021-08-12T18:58:07.895Z"
-          },
-          {
-            "id": 4,
-            "name": "D♯/E♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.996Z",
-            "updated_at": "2021-08-12T18:58:07.996Z"
-          },
-          {
-            "id": 6,
-            "name": "F",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.086Z",
-            "updated_at": "2021-08-12T18:58:08.086Z"
-          },
-          {
-            "id": 8,
-            "name": "G",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.174Z",
-            "updated_at": "2021-08-12T18:58:08.174Z"
-          },
-          {
-            "id": 9,
-            "name": "G♯/A♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.209Z",
-            "updated_at": "2021-08-12T18:58:08.209Z"
-          },
-          {
-            "id": 11,
-            "name": "A♯/B♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.298Z",
-            "updated_at": "2021-08-12T18:58:08.298Z"
-          },
-          {
-            "id": 1,
-            "name": "C",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.854Z",
-            "updated_at": "2021-08-12T18:58:07.854Z"
-          }
-        ],
-        "chords": [
-          {
-            "id": 15,
-            "name": "C♯/D♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:24.398Z",
-            "updated_at": "2021-08-12T18:58:24.398Z",
-            "notes": [
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              }
-            ]
-          },
-          {
-            "id": 16,
-            "name": "C♯/D♭ major_seventh",
-            "accidental": null,
-            "chord_type": "major_seventh",
-            "created_at": "2021-08-12T18:58:24.597Z",
-            "updated_at": "2021-08-12T18:58:24.597Z",
-            "notes": [
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 12,
-                "name": "B",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.343Z",
-                "updated_at": "2021-08-12T18:58:08.343Z"
-              }
-            ]
-          },
-          {
-            "id": 40,
-            "name": "D♯/E♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:47.040Z",
-            "updated_at": "2021-08-12T18:58:47.040Z",
-            "notes": [
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              }
-            ]
-          },
-          {
-            "id": 73,
-            "name": "D♯/E♭ dominant_seventh",
-            "accidental": null,
-            "chord_type": "dominant_seventh",
-            "created_at": "2021-08-12T18:59:38.192Z",
-            "updated_at": "2021-08-12T18:59:38.192Z",
-            "notes": [
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              }
-            ]
-          },
-          {
-            "id": 19,
-            "name": "F minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:25.359Z",
-            "updated_at": "2021-08-12T18:58:25.359Z",
-            "notes": [
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              }
-            ]
-          },
-          {
-            "id": 20,
-            "name": "F minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:25.674Z",
-            "updated_at": "2021-08-12T18:58:25.674Z",
-            "notes": [
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 3,
-                "name": "D",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.939Z",
-                "updated_at": "2021-08-12T18:58:07.939Z"
-              }
-            ]
-          },
-          {
-            "id": 74,
-            "name": "G diminished",
-            "accidental": null,
-            "chord_type": "diminished",
-            "created_at": "2021-08-12T18:59:38.540Z",
-            "updated_at": "2021-08-12T18:59:38.540Z",
-            "notes": [
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              }
-            ]
-          },
-          {
-            "id": 75,
-            "name": "G minor_seventh_flat_five",
-            "accidental": null,
-            "chord_type": "minor_seventh_flat_five",
-            "created_at": "2021-08-12T18:59:38.754Z",
-            "updated_at": "2021-08-12T18:59:38.754Z",
-            "notes": [
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 5,
-                "name": "E",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.041Z",
-                "updated_at": "2021-08-12T18:58:08.041Z"
-              }
-            ]
-          },
-          {
-            "id": 23,
-            "name": "G♯/A♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:26.426Z",
-            "updated_at": "2021-08-12T18:58:26.426Z",
-            "notes": [
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              }
-            ]
-          },
-          {
-            "id": 44,
-            "name": "G♯/A♭ major_seventh",
-            "accidental": null,
-            "chord_type": "major_seventh",
-            "created_at": "2021-08-12T18:58:48.227Z",
-            "updated_at": "2021-08-12T18:58:48.227Z",
-            "notes": [
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 7,
-                "name": "F♯/G♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.130Z",
-                "updated_at": "2021-08-12T18:58:08.130Z"
-              }
-            ]
-          },
-          {
-            "id": 25,
-            "name": "A♯/B♭ minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:26.918Z",
-            "updated_at": "2021-08-12T18:58:26.918Z",
-            "notes": [
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              }
-            ]
-          },
-          {
-            "id": 26,
-            "name": "A♯/B♭ minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:27.136Z",
-            "updated_at": "2021-08-12T18:58:27.136Z",
-            "notes": [
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              }
-            ]
-          },
-          {
-            "id": 47,
-            "name": "C minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:48.968Z",
-            "updated_at": "2021-08-12T18:58:48.968Z",
-            "notes": [
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              }
-            ]
-          },
-          {
-            "id": 48,
-            "name": "C minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:49.172Z",
-            "updated_at": "2021-08-12T18:58:49.172Z",
-            "notes": [
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 10,
-                "name": "A",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.253Z",
-                "updated_at": "2021-08-12T18:58:08.253Z"
-              }
-            ]
-          }
-        ]
+        {
+          "id": 2,
+          "name": "C♯/D♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.043Z",
+          "updated_at": "2021-09-20T21:20:53.043Z"
+        },
+        {
+          "id": 4,
+          "name": "D♯/E♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.133Z",
+          "updated_at": "2021-09-20T21:20:53.133Z"
+        },
+        {
+          "id": 6,
+          "name": "F",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.223Z",
+          "updated_at": "2021-09-20T21:20:53.223Z"
+        },
+        {
+          "id": 8,
+          "name": "G",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.312Z",
+          "updated_at": "2021-09-20T21:20:53.312Z"
+        },
+        {
+          "id": 9,
+          "name": "G♯/A♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.357Z",
+          "updated_at": "2021-09-20T21:20:53.357Z"
+        },
+        {
+          "id": 11,
+          "name": "A♯/B♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.446Z",
+          "updated_at": "2021-09-20T21:20:53.446Z"
+        }
+      ],
+      "chords": [
+        {
+          "id": 47,
+          "name": "C minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:42.908Z",
+          "updated_at": "2021-09-20T21:21:42.908Z",
+          "notes": [
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "name": "C minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:43.123Z",
+          "updated_at": "2021-09-20T21:21:43.123Z",
+          "notes": [
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "C♯/D♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:10.462Z",
+          "updated_at": "2021-09-20T21:21:10.462Z",
+          "notes": [
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "C♯/D♭ major_seventh",
+          "accidental": null,
+          "chord_type": "major_seventh",
+          "created_at": "2021-09-20T21:21:10.683Z",
+          "updated_at": "2021-09-20T21:21:10.683Z",
+          "notes": [
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "name": "D♯/E♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:41.068Z",
+          "updated_at": "2021-09-20T21:21:41.068Z",
+          "notes": [
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            }
+          ]
+        },
+        {
+          "id": 73,
+          "name": "D♯/E♭ dominant_seventh",
+          "accidental": null,
+          "chord_type": "dominant_seventh",
+          "created_at": "2021-09-20T21:22:32.029Z",
+          "updated_at": "2021-09-20T21:22:32.029Z",
+          "notes": [
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "F minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:11.447Z",
+          "updated_at": "2021-09-20T21:21:11.447Z",
+          "notes": [
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "F minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:11.672Z",
+          "updated_at": "2021-09-20T21:21:11.672Z",
+          "notes": [
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "name": "G diminished",
+          "accidental": null,
+          "chord_type": "diminished",
+          "created_at": "2021-09-20T21:22:32.388Z",
+          "updated_at": "2021-09-20T21:22:32.388Z",
+          "notes": [
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "name": "G minor_seventh_flat_five",
+          "accidental": null,
+          "chord_type": "minor_seventh_flat_five",
+          "created_at": "2021-09-20T21:22:32.614Z",
+          "updated_at": "2021-09-20T21:22:32.614Z",
+          "notes": [
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 5,
+              "name": "E",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.178Z",
+              "updated_at": "2021-09-20T21:20:53.178Z"
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "G♯/A♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:12.446Z",
+          "updated_at": "2021-09-20T21:21:12.446Z",
+          "notes": [
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "name": "G♯/A♭ major_seventh",
+          "accidental": null,
+          "chord_type": "major_seventh",
+          "created_at": "2021-09-20T21:21:42.221Z",
+          "updated_at": "2021-09-20T21:21:42.221Z",
+          "notes": [
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "A♯/B♭ minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:12.940Z",
+          "updated_at": "2021-09-20T21:21:12.940Z",
+          "notes": [
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "A♯/B♭ minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:13.167Z",
+          "updated_at": "2021-09-20T21:21:13.167Z",
+          "notes": [
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "C♯/D♭ Lydian",
+      "scale_type": "Lydian",
+      "degrees": {
+        "IV": "major, major_seventh",
+        "V": "major, dominant_seventh",
+        "vi": "minor, minor_seventh",
+        "viidim": "diminished, minor_seventh_flat_five",
+        "I": "major, major_seventh",
+        "ii": "minor, minor_seventh",
+        "iii": "minor, minor_seventh"
       },
-      {
-        "id": 70,
-        "name": "D♯/E♭ Mixolydian",
-        "scale_type": "Mixolydian",
-        "degrees": {
-          "V": "major, dominant_seventh",
-          "vi": "minor, minor_seventh",
-          "viidim": "diminished, minor_seventh_flat_five",
-          "I": "major, major_seventh",
-          "ii": "minor, minor_seventh",
-          "iii": "minor, minor_seventh",
-          "IV": "major, major_seventh"
+      "intervals": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "created_at": "2021-09-20T21:22:28.996Z",
+      "updated_at": "2021-09-20T21:22:28.996Z",
+      "notes": [
+        {
+          "id": 2,
+          "name": "C♯/D♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.043Z",
+          "updated_at": "2021-09-20T21:20:53.043Z"
         },
-        "intervals": [
-          2,
-          2,
-          1,
-          2,
-          2,
-          1
-        ],
-        "created_at": "2021-08-12T18:59:35.299Z",
-        "updated_at": "2021-08-12T18:59:35.299Z",
-        "notes": [
-          {
-            "id": 4,
-            "name": "D♯/E♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.996Z",
-            "updated_at": "2021-08-12T18:58:07.996Z"
-          },
-          {
-            "id": 6,
-            "name": "F",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.086Z",
-            "updated_at": "2021-08-12T18:58:08.086Z"
-          },
-          {
-            "id": 8,
-            "name": "G",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.174Z",
-            "updated_at": "2021-08-12T18:58:08.174Z"
-          },
-          {
-            "id": 9,
-            "name": "G♯/A♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.209Z",
-            "updated_at": "2021-08-12T18:58:08.209Z"
-          },
-          {
-            "id": 11,
-            "name": "A♯/B♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.298Z",
-            "updated_at": "2021-08-12T18:58:08.298Z"
-          },
-          {
-            "id": 1,
-            "name": "C",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.854Z",
-            "updated_at": "2021-08-12T18:58:07.854Z"
-          },
-          {
-            "id": 2,
-            "name": "C♯/D♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.895Z",
-            "updated_at": "2021-08-12T18:58:07.895Z"
-          }
-        ],
-        "chords": [
-          {
-            "id": 40,
-            "name": "D♯/E♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:47.040Z",
-            "updated_at": "2021-08-12T18:58:47.040Z",
-            "notes": [
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              }
-            ]
-          },
-          {
-            "id": 73,
-            "name": "D♯/E♭ dominant_seventh",
-            "accidental": null,
-            "chord_type": "dominant_seventh",
-            "created_at": "2021-08-12T18:59:38.192Z",
-            "updated_at": "2021-08-12T18:59:38.192Z",
-            "notes": [
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              }
-            ]
-          },
-          {
-            "id": 19,
-            "name": "F minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:25.359Z",
-            "updated_at": "2021-08-12T18:58:25.359Z",
-            "notes": [
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              }
-            ]
-          },
-          {
-            "id": 20,
-            "name": "F minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:25.674Z",
-            "updated_at": "2021-08-12T18:58:25.674Z",
-            "notes": [
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 3,
-                "name": "D",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.939Z",
-                "updated_at": "2021-08-12T18:58:07.939Z"
-              }
-            ]
-          },
-          {
-            "id": 74,
-            "name": "G diminished",
-            "accidental": null,
-            "chord_type": "diminished",
-            "created_at": "2021-08-12T18:59:38.540Z",
-            "updated_at": "2021-08-12T18:59:38.540Z",
-            "notes": [
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              }
-            ]
-          },
-          {
-            "id": 75,
-            "name": "G minor_seventh_flat_five",
-            "accidental": null,
-            "chord_type": "minor_seventh_flat_five",
-            "created_at": "2021-08-12T18:59:38.754Z",
-            "updated_at": "2021-08-12T18:59:38.754Z",
-            "notes": [
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 5,
-                "name": "E",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.041Z",
-                "updated_at": "2021-08-12T18:58:08.041Z"
-              }
-            ]
-          },
-          {
-            "id": 23,
-            "name": "G♯/A♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:26.426Z",
-            "updated_at": "2021-08-12T18:58:26.426Z",
-            "notes": [
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              }
-            ]
-          },
-          {
-            "id": 44,
-            "name": "G♯/A♭ major_seventh",
-            "accidental": null,
-            "chord_type": "major_seventh",
-            "created_at": "2021-08-12T18:58:48.227Z",
-            "updated_at": "2021-08-12T18:58:48.227Z",
-            "notes": [
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 7,
-                "name": "F♯/G♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.130Z",
-                "updated_at": "2021-08-12T18:58:08.130Z"
-              }
-            ]
-          },
-          {
-            "id": 25,
-            "name": "A♯/B♭ minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:26.918Z",
-            "updated_at": "2021-08-12T18:58:26.918Z",
-            "notes": [
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              }
-            ]
-          },
-          {
-            "id": 26,
-            "name": "A♯/B♭ minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:27.136Z",
-            "updated_at": "2021-08-12T18:58:27.136Z",
-            "notes": [
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              }
-            ]
-          },
-          {
-            "id": 47,
-            "name": "C minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:48.968Z",
-            "updated_at": "2021-08-12T18:58:48.968Z",
-            "notes": [
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              }
-            ]
-          },
-          {
-            "id": 48,
-            "name": "C minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:49.172Z",
-            "updated_at": "2021-08-12T18:58:49.172Z",
-            "notes": [
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 10,
-                "name": "A",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.253Z",
-                "updated_at": "2021-08-12T18:58:08.253Z"
-              }
-            ]
-          },
-          {
-            "id": 15,
-            "name": "C♯/D♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:24.398Z",
-            "updated_at": "2021-08-12T18:58:24.398Z",
-            "notes": [
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              }
-            ]
-          },
-          {
-            "id": 16,
-            "name": "C♯/D♭ major_seventh",
-            "accidental": null,
-            "chord_type": "major_seventh",
-            "created_at": "2021-08-12T18:58:24.597Z",
-            "updated_at": "2021-08-12T18:58:24.597Z",
-            "notes": [
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 12,
-                "name": "B",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.343Z",
-                "updated_at": "2021-08-12T18:58:08.343Z"
-              }
-            ]
-          }
-        ]
+        {
+          "id": 4,
+          "name": "D♯/E♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.133Z",
+          "updated_at": "2021-09-20T21:20:53.133Z"
+        },
+        {
+          "id": 6,
+          "name": "F",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.223Z",
+          "updated_at": "2021-09-20T21:20:53.223Z"
+        },
+        {
+          "id": 8,
+          "name": "G",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.312Z",
+          "updated_at": "2021-09-20T21:20:53.312Z"
+        },
+        {
+          "id": 9,
+          "name": "G♯/A♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.357Z",
+          "updated_at": "2021-09-20T21:20:53.357Z"
+        },
+        {
+          "id": 11,
+          "name": "A♯/B♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.446Z",
+          "updated_at": "2021-09-20T21:20:53.446Z"
+        },
+        {
+          "id": 1,
+          "name": "C",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:52.999Z",
+          "updated_at": "2021-09-20T21:20:52.999Z"
+        }
+      ],
+      "chords": [
+        {
+          "id": 15,
+          "name": "C♯/D♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:10.462Z",
+          "updated_at": "2021-09-20T21:21:10.462Z",
+          "notes": [
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "C♯/D♭ major_seventh",
+          "accidental": null,
+          "chord_type": "major_seventh",
+          "created_at": "2021-09-20T21:21:10.683Z",
+          "updated_at": "2021-09-20T21:21:10.683Z",
+          "notes": [
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "name": "D♯/E♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:41.068Z",
+          "updated_at": "2021-09-20T21:21:41.068Z",
+          "notes": [
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            }
+          ]
+        },
+        {
+          "id": 73,
+          "name": "D♯/E♭ dominant_seventh",
+          "accidental": null,
+          "chord_type": "dominant_seventh",
+          "created_at": "2021-09-20T21:22:32.029Z",
+          "updated_at": "2021-09-20T21:22:32.029Z",
+          "notes": [
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "F minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:11.447Z",
+          "updated_at": "2021-09-20T21:21:11.447Z",
+          "notes": [
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "F minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:11.672Z",
+          "updated_at": "2021-09-20T21:21:11.672Z",
+          "notes": [
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "name": "G diminished",
+          "accidental": null,
+          "chord_type": "diminished",
+          "created_at": "2021-09-20T21:22:32.388Z",
+          "updated_at": "2021-09-20T21:22:32.388Z",
+          "notes": [
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "name": "G minor_seventh_flat_five",
+          "accidental": null,
+          "chord_type": "minor_seventh_flat_five",
+          "created_at": "2021-09-20T21:22:32.614Z",
+          "updated_at": "2021-09-20T21:22:32.614Z",
+          "notes": [
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 5,
+              "name": "E",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.178Z",
+              "updated_at": "2021-09-20T21:20:53.178Z"
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "G♯/A♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:12.446Z",
+          "updated_at": "2021-09-20T21:21:12.446Z",
+          "notes": [
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "name": "G♯/A♭ major_seventh",
+          "accidental": null,
+          "chord_type": "major_seventh",
+          "created_at": "2021-09-20T21:21:42.221Z",
+          "updated_at": "2021-09-20T21:21:42.221Z",
+          "notes": [
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "A♯/B♭ minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:12.940Z",
+          "updated_at": "2021-09-20T21:21:12.940Z",
+          "notes": [
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "A♯/B♭ minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:13.167Z",
+          "updated_at": "2021-09-20T21:21:13.167Z",
+          "notes": [
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "name": "C minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:42.908Z",
+          "updated_at": "2021-09-20T21:21:42.908Z",
+          "notes": [
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "name": "C minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:43.123Z",
+          "updated_at": "2021-09-20T21:21:43.123Z",
+          "notes": [
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "D♯/E♭ Mixolydian",
+      "scale_type": "Mixolydian",
+      "degrees": {
+        "V": "major, dominant_seventh",
+        "vi": "minor, minor_seventh",
+        "viidim": "diminished, minor_seventh_flat_five",
+        "I": "major, major_seventh",
+        "ii": "minor, minor_seventh",
+        "iii": "minor, minor_seventh",
+        "IV": "major, major_seventh"
       },
-      {
-        "id": 71,
-        "name": "F Aeolian",
-        "scale_type": "Aeolian",
-        "degrees": {
-          "vi": "minor, minor_seventh",
-          "viidim": "diminished, minor_seventh_flat_five",
-          "I": "major, major_seventh",
-          "ii": "minor, minor_seventh",
-          "iii": "minor, minor_seventh",
-          "IV": "major, major_seventh",
-          "V": "major, dominant_seventh"
+      "intervals": [
+        2,
+        2,
+        1,
+        2,
+        2,
+        1
+      ],
+      "created_at": "2021-09-20T21:22:29.086Z",
+      "updated_at": "2021-09-20T21:22:29.086Z",
+      "notes": [
+        {
+          "id": 4,
+          "name": "D♯/E♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.133Z",
+          "updated_at": "2021-09-20T21:20:53.133Z"
         },
-        "intervals": [
-          2,
-          1,
-          2,
-          2,
-          1,
-          2
-        ],
-        "created_at": "2021-08-12T18:59:35.390Z",
-        "updated_at": "2021-08-12T18:59:35.390Z",
-        "notes": [
-          {
-            "id": 6,
-            "name": "F",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.086Z",
-            "updated_at": "2021-08-12T18:58:08.086Z"
-          },
-          {
-            "id": 8,
-            "name": "G",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.174Z",
-            "updated_at": "2021-08-12T18:58:08.174Z"
-          },
-          {
-            "id": 9,
-            "name": "G♯/A♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.209Z",
-            "updated_at": "2021-08-12T18:58:08.209Z"
-          },
-          {
-            "id": 11,
-            "name": "A♯/B♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.298Z",
-            "updated_at": "2021-08-12T18:58:08.298Z"
-          },
-          {
-            "id": 1,
-            "name": "C",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.854Z",
-            "updated_at": "2021-08-12T18:58:07.854Z"
-          },
-          {
-            "id": 2,
-            "name": "C♯/D♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.895Z",
-            "updated_at": "2021-08-12T18:58:07.895Z"
-          },
-          {
-            "id": 4,
-            "name": "D♯/E♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.996Z",
-            "updated_at": "2021-08-12T18:58:07.996Z"
-          }
-        ],
-        "chords": [
-          {
-            "id": 19,
-            "name": "F minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:25.359Z",
-            "updated_at": "2021-08-12T18:58:25.359Z",
-            "notes": [
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              }
-            ]
-          },
-          {
-            "id": 20,
-            "name": "F minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:25.674Z",
-            "updated_at": "2021-08-12T18:58:25.674Z",
-            "notes": [
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 3,
-                "name": "D",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.939Z",
-                "updated_at": "2021-08-12T18:58:07.939Z"
-              }
-            ]
-          },
-          {
-            "id": 74,
-            "name": "G diminished",
-            "accidental": null,
-            "chord_type": "diminished",
-            "created_at": "2021-08-12T18:59:38.540Z",
-            "updated_at": "2021-08-12T18:59:38.540Z",
-            "notes": [
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              }
-            ]
-          },
-          {
-            "id": 75,
-            "name": "G minor_seventh_flat_five",
-            "accidental": null,
-            "chord_type": "minor_seventh_flat_five",
-            "created_at": "2021-08-12T18:59:38.754Z",
-            "updated_at": "2021-08-12T18:59:38.754Z",
-            "notes": [
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 5,
-                "name": "E",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.041Z",
-                "updated_at": "2021-08-12T18:58:08.041Z"
-              }
-            ]
-          },
-          {
-            "id": 23,
-            "name": "G♯/A♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:26.426Z",
-            "updated_at": "2021-08-12T18:58:26.426Z",
-            "notes": [
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              }
-            ]
-          },
-          {
-            "id": 44,
-            "name": "G♯/A♭ major_seventh",
-            "accidental": null,
-            "chord_type": "major_seventh",
-            "created_at": "2021-08-12T18:58:48.227Z",
-            "updated_at": "2021-08-12T18:58:48.227Z",
-            "notes": [
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 7,
-                "name": "F♯/G♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.130Z",
-                "updated_at": "2021-08-12T18:58:08.130Z"
-              }
-            ]
-          },
-          {
-            "id": 25,
-            "name": "A♯/B♭ minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:26.918Z",
-            "updated_at": "2021-08-12T18:58:26.918Z",
-            "notes": [
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              }
-            ]
-          },
-          {
-            "id": 26,
-            "name": "A♯/B♭ minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:27.136Z",
-            "updated_at": "2021-08-12T18:58:27.136Z",
-            "notes": [
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              }
-            ]
-          },
-          {
-            "id": 47,
-            "name": "C minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:48.968Z",
-            "updated_at": "2021-08-12T18:58:48.968Z",
-            "notes": [
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              }
-            ]
-          },
-          {
-            "id": 48,
-            "name": "C minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:49.172Z",
-            "updated_at": "2021-08-12T18:58:49.172Z",
-            "notes": [
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 10,
-                "name": "A",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.253Z",
-                "updated_at": "2021-08-12T18:58:08.253Z"
-              }
-            ]
-          },
-          {
-            "id": 15,
-            "name": "C♯/D♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:24.398Z",
-            "updated_at": "2021-08-12T18:58:24.398Z",
-            "notes": [
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              }
-            ]
-          },
-          {
-            "id": 16,
-            "name": "C♯/D♭ major_seventh",
-            "accidental": null,
-            "chord_type": "major_seventh",
-            "created_at": "2021-08-12T18:58:24.597Z",
-            "updated_at": "2021-08-12T18:58:24.597Z",
-            "notes": [
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 12,
-                "name": "B",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.343Z",
-                "updated_at": "2021-08-12T18:58:08.343Z"
-              }
-            ]
-          },
-          {
-            "id": 40,
-            "name": "D♯/E♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:47.040Z",
-            "updated_at": "2021-08-12T18:58:47.040Z",
-            "notes": [
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              }
-            ]
-          },
-          {
-            "id": 73,
-            "name": "D♯/E♭ dominant_seventh",
-            "accidental": null,
-            "chord_type": "dominant_seventh",
-            "created_at": "2021-08-12T18:59:38.192Z",
-            "updated_at": "2021-08-12T18:59:38.192Z",
-            "notes": [
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              }
-            ]
-          }
-        ]
+        {
+          "id": 6,
+          "name": "F",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.223Z",
+          "updated_at": "2021-09-20T21:20:53.223Z"
+        },
+        {
+          "id": 8,
+          "name": "G",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.312Z",
+          "updated_at": "2021-09-20T21:20:53.312Z"
+        },
+        {
+          "id": 9,
+          "name": "G♯/A♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.357Z",
+          "updated_at": "2021-09-20T21:20:53.357Z"
+        },
+        {
+          "id": 11,
+          "name": "A♯/B♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.446Z",
+          "updated_at": "2021-09-20T21:20:53.446Z"
+        },
+        {
+          "id": 1,
+          "name": "C",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:52.999Z",
+          "updated_at": "2021-09-20T21:20:52.999Z"
+        },
+        {
+          "id": 2,
+          "name": "C♯/D♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.043Z",
+          "updated_at": "2021-09-20T21:20:53.043Z"
+        }
+      ],
+      "chords": [
+        {
+          "id": 40,
+          "name": "D♯/E♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:41.068Z",
+          "updated_at": "2021-09-20T21:21:41.068Z",
+          "notes": [
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            }
+          ]
+        },
+        {
+          "id": 73,
+          "name": "D♯/E♭ dominant_seventh",
+          "accidental": null,
+          "chord_type": "dominant_seventh",
+          "created_at": "2021-09-20T21:22:32.029Z",
+          "updated_at": "2021-09-20T21:22:32.029Z",
+          "notes": [
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "F minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:11.447Z",
+          "updated_at": "2021-09-20T21:21:11.447Z",
+          "notes": [
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "F minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:11.672Z",
+          "updated_at": "2021-09-20T21:21:11.672Z",
+          "notes": [
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "name": "G diminished",
+          "accidental": null,
+          "chord_type": "diminished",
+          "created_at": "2021-09-20T21:22:32.388Z",
+          "updated_at": "2021-09-20T21:22:32.388Z",
+          "notes": [
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "name": "G minor_seventh_flat_five",
+          "accidental": null,
+          "chord_type": "minor_seventh_flat_five",
+          "created_at": "2021-09-20T21:22:32.614Z",
+          "updated_at": "2021-09-20T21:22:32.614Z",
+          "notes": [
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 5,
+              "name": "E",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.178Z",
+              "updated_at": "2021-09-20T21:20:53.178Z"
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "G♯/A♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:12.446Z",
+          "updated_at": "2021-09-20T21:21:12.446Z",
+          "notes": [
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "name": "G♯/A♭ major_seventh",
+          "accidental": null,
+          "chord_type": "major_seventh",
+          "created_at": "2021-09-20T21:21:42.221Z",
+          "updated_at": "2021-09-20T21:21:42.221Z",
+          "notes": [
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "A♯/B♭ minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:12.940Z",
+          "updated_at": "2021-09-20T21:21:12.940Z",
+          "notes": [
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "A♯/B♭ minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:13.167Z",
+          "updated_at": "2021-09-20T21:21:13.167Z",
+          "notes": [
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "name": "C minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:42.908Z",
+          "updated_at": "2021-09-20T21:21:42.908Z",
+          "notes": [
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "name": "C minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:43.123Z",
+          "updated_at": "2021-09-20T21:21:43.123Z",
+          "notes": [
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "C♯/D♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:10.462Z",
+          "updated_at": "2021-09-20T21:21:10.462Z",
+          "notes": [
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "C♯/D♭ major_seventh",
+          "accidental": null,
+          "chord_type": "major_seventh",
+          "created_at": "2021-09-20T21:21:10.683Z",
+          "updated_at": "2021-09-20T21:21:10.683Z",
+          "notes": [
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "F Aeolian",
+      "scale_type": "Aeolian",
+      "degrees": {
+        "vi": "minor, minor_seventh",
+        "viidim": "diminished, minor_seventh_flat_five",
+        "I": "major, major_seventh",
+        "ii": "minor, minor_seventh",
+        "iii": "minor, minor_seventh",
+        "IV": "major, major_seventh",
+        "V": "major, dominant_seventh"
       },
-      {
-        "id": 72,
-        "name": "G Locrian",
-        "scale_type": "Locrian",
-        "degrees": {
-          "viidim": "diminished, minor_seventh_flat_five",
-          "I": "major, major_seventh",
-          "ii": "minor, minor_seventh",
-          "iii": "minor, minor_seventh",
-          "IV": "major, major_seventh",
-          "V": "major, dominant_seventh",
-          "vi": "minor, minor_seventh"
+      "intervals": [
+        2,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "created_at": "2021-09-20T21:22:29.177Z",
+      "updated_at": "2021-09-20T21:22:29.177Z",
+      "notes": [
+        {
+          "id": 6,
+          "name": "F",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.223Z",
+          "updated_at": "2021-09-20T21:20:53.223Z"
         },
-        "intervals": [
-          1,
-          2,
-          2,
-          1,
-          2,
-          2
-        ],
-        "created_at": "2021-08-12T18:59:35.479Z",
-        "updated_at": "2021-08-12T18:59:35.479Z",
-        "notes": [
-          {
-            "id": 8,
-            "name": "G",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.174Z",
-            "updated_at": "2021-08-12T18:58:08.174Z"
-          },
-          {
-            "id": 9,
-            "name": "G♯/A♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.209Z",
-            "updated_at": "2021-08-12T18:58:08.209Z"
-          },
-          {
-            "id": 11,
-            "name": "A♯/B♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.298Z",
-            "updated_at": "2021-08-12T18:58:08.298Z"
-          },
-          {
-            "id": 1,
-            "name": "C",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.854Z",
-            "updated_at": "2021-08-12T18:58:07.854Z"
-          },
-          {
-            "id": 2,
-            "name": "C♯/D♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.895Z",
-            "updated_at": "2021-08-12T18:58:07.895Z"
-          },
-          {
-            "id": 4,
-            "name": "D♯/E♭",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:07.996Z",
-            "updated_at": "2021-08-12T18:58:07.996Z"
-          },
-          {
-            "id": 6,
-            "name": "F",
-            "accidental": null,
-            "pitch": null,
-            "created_at": "2021-08-12T18:58:08.086Z",
-            "updated_at": "2021-08-12T18:58:08.086Z"
-          }
-        ],
-        "chords": [
-          {
-            "id": 74,
-            "name": "G diminished",
-            "accidental": null,
-            "chord_type": "diminished",
-            "created_at": "2021-08-12T18:59:38.540Z",
-            "updated_at": "2021-08-12T18:59:38.540Z",
-            "notes": [
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              }
-            ]
-          },
-          {
-            "id": 75,
-            "name": "G minor_seventh_flat_five",
-            "accidental": null,
-            "chord_type": "minor_seventh_flat_five",
-            "created_at": "2021-08-12T18:59:38.754Z",
-            "updated_at": "2021-08-12T18:59:38.754Z",
-            "notes": [
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 5,
-                "name": "E",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.041Z",
-                "updated_at": "2021-08-12T18:58:08.041Z"
-              }
-            ]
-          },
-          {
-            "id": 23,
-            "name": "G♯/A♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:26.426Z",
-            "updated_at": "2021-08-12T18:58:26.426Z",
-            "notes": [
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              }
-            ]
-          },
-          {
-            "id": 44,
-            "name": "G♯/A♭ major_seventh",
-            "accidental": null,
-            "chord_type": "major_seventh",
-            "created_at": "2021-08-12T18:58:48.227Z",
-            "updated_at": "2021-08-12T18:58:48.227Z",
-            "notes": [
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 7,
-                "name": "F♯/G♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.130Z",
-                "updated_at": "2021-08-12T18:58:08.130Z"
-              }
-            ]
-          },
-          {
-            "id": 25,
-            "name": "A♯/B♭ minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:26.918Z",
-            "updated_at": "2021-08-12T18:58:26.918Z",
-            "notes": [
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              }
-            ]
-          },
-          {
-            "id": 26,
-            "name": "A♯/B♭ minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:27.136Z",
-            "updated_at": "2021-08-12T18:58:27.136Z",
-            "notes": [
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              }
-            ]
-          },
-          {
-            "id": 47,
-            "name": "C minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:48.968Z",
-            "updated_at": "2021-08-12T18:58:48.968Z",
-            "notes": [
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              }
-            ]
-          },
-          {
-            "id": 48,
-            "name": "C minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:49.172Z",
-            "updated_at": "2021-08-12T18:58:49.172Z",
-            "notes": [
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 10,
-                "name": "A",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.253Z",
-                "updated_at": "2021-08-12T18:58:08.253Z"
-              }
-            ]
-          },
-          {
-            "id": 15,
-            "name": "C♯/D♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:24.398Z",
-            "updated_at": "2021-08-12T18:58:24.398Z",
-            "notes": [
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              }
-            ]
-          },
-          {
-            "id": 16,
-            "name": "C♯/D♭ major_seventh",
-            "accidental": null,
-            "chord_type": "major_seventh",
-            "created_at": "2021-08-12T18:58:24.597Z",
-            "updated_at": "2021-08-12T18:58:24.597Z",
-            "notes": [
-              {
-                "id": 2,
-                "name": "C♯/D♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.895Z",
-                "updated_at": "2021-08-12T18:58:07.895Z"
-              },
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 12,
-                "name": "B",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.343Z",
-                "updated_at": "2021-08-12T18:58:08.343Z"
-              }
-            ]
-          },
-          {
-            "id": 40,
-            "name": "D♯/E♭ Major",
-            "accidental": null,
-            "chord_type": "Major",
-            "created_at": "2021-08-12T18:58:47.040Z",
-            "updated_at": "2021-08-12T18:58:47.040Z",
-            "notes": [
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              }
-            ]
-          },
-          {
-            "id": 73,
-            "name": "D♯/E♭ dominant_seventh",
-            "accidental": null,
-            "chord_type": "dominant_seventh",
-            "created_at": "2021-08-12T18:59:38.192Z",
-            "updated_at": "2021-08-12T18:59:38.192Z",
-            "notes": [
-              {
-                "id": 4,
-                "name": "D♯/E♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.996Z",
-                "updated_at": "2021-08-12T18:58:07.996Z"
-              },
-              {
-                "id": 8,
-                "name": "G",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.174Z",
-                "updated_at": "2021-08-12T18:58:08.174Z"
-              },
-              {
-                "id": 11,
-                "name": "A♯/B♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.298Z",
-                "updated_at": "2021-08-12T18:58:08.298Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              }
-            ]
-          },
-          {
-            "id": 19,
-            "name": "F minor",
-            "accidental": null,
-            "chord_type": "minor",
-            "created_at": "2021-08-12T18:58:25.359Z",
-            "updated_at": "2021-08-12T18:58:25.359Z",
-            "notes": [
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              }
-            ]
-          },
-          {
-            "id": 20,
-            "name": "F minor_seventh",
-            "accidental": null,
-            "chord_type": "minor_seventh",
-            "created_at": "2021-08-12T18:58:25.674Z",
-            "updated_at": "2021-08-12T18:58:25.674Z",
-            "notes": [
-              {
-                "id": 6,
-                "name": "F",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.086Z",
-                "updated_at": "2021-08-12T18:58:08.086Z"
-              },
-              {
-                "id": 9,
-                "name": "G♯/A♭",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:08.209Z",
-                "updated_at": "2021-08-12T18:58:08.209Z"
-              },
-              {
-                "id": 1,
-                "name": "C",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.854Z",
-                "updated_at": "2021-08-12T18:58:07.854Z"
-              },
-              {
-                "id": 3,
-                "name": "D",
-                "accidental": null,
-                "pitch": null,
-                "created_at": "2021-08-12T18:58:07.939Z",
-                "updated_at": "2021-08-12T18:58:07.939Z"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  } 
+        {
+          "id": 8,
+          "name": "G",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.312Z",
+          "updated_at": "2021-09-20T21:20:53.312Z"
+        },
+        {
+          "id": 9,
+          "name": "G♯/A♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.357Z",
+          "updated_at": "2021-09-20T21:20:53.357Z"
+        },
+        {
+          "id": 11,
+          "name": "A♯/B♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.446Z",
+          "updated_at": "2021-09-20T21:20:53.446Z"
+        },
+        {
+          "id": 1,
+          "name": "C",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:52.999Z",
+          "updated_at": "2021-09-20T21:20:52.999Z"
+        },
+        {
+          "id": 2,
+          "name": "C♯/D♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.043Z",
+          "updated_at": "2021-09-20T21:20:53.043Z"
+        },
+        {
+          "id": 4,
+          "name": "D♯/E♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.133Z",
+          "updated_at": "2021-09-20T21:20:53.133Z"
+        }
+      ],
+      "chords": [
+        {
+          "id": 19,
+          "name": "F minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:11.447Z",
+          "updated_at": "2021-09-20T21:21:11.447Z",
+          "notes": [
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "F minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:11.672Z",
+          "updated_at": "2021-09-20T21:21:11.672Z",
+          "notes": [
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "name": "G diminished",
+          "accidental": null,
+          "chord_type": "diminished",
+          "created_at": "2021-09-20T21:22:32.388Z",
+          "updated_at": "2021-09-20T21:22:32.388Z",
+          "notes": [
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "name": "G minor_seventh_flat_five",
+          "accidental": null,
+          "chord_type": "minor_seventh_flat_five",
+          "created_at": "2021-09-20T21:22:32.614Z",
+          "updated_at": "2021-09-20T21:22:32.614Z",
+          "notes": [
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 5,
+              "name": "E",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.178Z",
+              "updated_at": "2021-09-20T21:20:53.178Z"
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "G♯/A♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:12.446Z",
+          "updated_at": "2021-09-20T21:21:12.446Z",
+          "notes": [
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "name": "G♯/A♭ major_seventh",
+          "accidental": null,
+          "chord_type": "major_seventh",
+          "created_at": "2021-09-20T21:21:42.221Z",
+          "updated_at": "2021-09-20T21:21:42.221Z",
+          "notes": [
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "A♯/B♭ minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:12.940Z",
+          "updated_at": "2021-09-20T21:21:12.940Z",
+          "notes": [
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "A♯/B♭ minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:13.167Z",
+          "updated_at": "2021-09-20T21:21:13.167Z",
+          "notes": [
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "name": "C minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:42.908Z",
+          "updated_at": "2021-09-20T21:21:42.908Z",
+          "notes": [
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "name": "C minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:43.123Z",
+          "updated_at": "2021-09-20T21:21:43.123Z",
+          "notes": [
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "C♯/D♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:10.462Z",
+          "updated_at": "2021-09-20T21:21:10.462Z",
+          "notes": [
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "C♯/D♭ major_seventh",
+          "accidental": null,
+          "chord_type": "major_seventh",
+          "created_at": "2021-09-20T21:21:10.683Z",
+          "updated_at": "2021-09-20T21:21:10.683Z",
+          "notes": [
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "name": "D♯/E♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:41.068Z",
+          "updated_at": "2021-09-20T21:21:41.068Z",
+          "notes": [
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            }
+          ]
+        },
+        {
+          "id": 73,
+          "name": "D♯/E♭ dominant_seventh",
+          "accidental": null,
+          "chord_type": "dominant_seventh",
+          "created_at": "2021-09-20T21:22:32.029Z",
+          "updated_at": "2021-09-20T21:22:32.029Z",
+          "notes": [
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "G Locrian",
+      "scale_type": "Locrian",
+      "degrees": {
+        "viidim": "diminished, minor_seventh_flat_five",
+        "I": "major, major_seventh",
+        "ii": "minor, minor_seventh",
+        "iii": "minor, minor_seventh",
+        "IV": "major, major_seventh",
+        "V": "major, dominant_seventh",
+        "vi": "minor, minor_seventh"
+      },
+      "intervals": [
+        1,
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "created_at": "2021-09-20T21:22:29.267Z",
+      "updated_at": "2021-09-20T21:22:29.267Z",
+      "notes": [
+        {
+          "id": 8,
+          "name": "G",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.312Z",
+          "updated_at": "2021-09-20T21:20:53.312Z"
+        },
+        {
+          "id": 9,
+          "name": "G♯/A♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.357Z",
+          "updated_at": "2021-09-20T21:20:53.357Z"
+        },
+        {
+          "id": 11,
+          "name": "A♯/B♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.446Z",
+          "updated_at": "2021-09-20T21:20:53.446Z"
+        },
+        {
+          "id": 1,
+          "name": "C",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:52.999Z",
+          "updated_at": "2021-09-20T21:20:52.999Z"
+        },
+        {
+          "id": 2,
+          "name": "C♯/D♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.043Z",
+          "updated_at": "2021-09-20T21:20:53.043Z"
+        },
+        {
+          "id": 4,
+          "name": "D♯/E♭",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.133Z",
+          "updated_at": "2021-09-20T21:20:53.133Z"
+        },
+        {
+          "id": 6,
+          "name": "F",
+          "accidental": null,
+          "pitch": null,
+          "created_at": "2021-09-20T21:20:53.223Z",
+          "updated_at": "2021-09-20T21:20:53.223Z"
+        }
+      ],
+      "chords": [
+        {
+          "id": 74,
+          "name": "G diminished",
+          "accidental": null,
+          "chord_type": "diminished",
+          "created_at": "2021-09-20T21:22:32.388Z",
+          "updated_at": "2021-09-20T21:22:32.388Z",
+          "notes": [
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "name": "G minor_seventh_flat_five",
+          "accidental": null,
+          "chord_type": "minor_seventh_flat_five",
+          "created_at": "2021-09-20T21:22:32.614Z",
+          "updated_at": "2021-09-20T21:22:32.614Z",
+          "notes": [
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 5,
+              "name": "E",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.178Z",
+              "updated_at": "2021-09-20T21:20:53.178Z"
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "G♯/A♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:12.446Z",
+          "updated_at": "2021-09-20T21:21:12.446Z",
+          "notes": [
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "name": "G♯/A♭ major_seventh",
+          "accidental": null,
+          "chord_type": "major_seventh",
+          "created_at": "2021-09-20T21:21:42.221Z",
+          "updated_at": "2021-09-20T21:21:42.221Z",
+          "notes": [
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "A♯/B♭ minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:12.940Z",
+          "updated_at": "2021-09-20T21:21:12.940Z",
+          "notes": [
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "A♯/B♭ minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:13.167Z",
+          "updated_at": "2021-09-20T21:21:13.167Z",
+          "notes": [
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "name": "C minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:42.908Z",
+          "updated_at": "2021-09-20T21:21:42.908Z",
+          "notes": [
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "name": "C minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:43.123Z",
+          "updated_at": "2021-09-20T21:21:43.123Z",
+          "notes": [
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "C♯/D♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:10.462Z",
+          "updated_at": "2021-09-20T21:21:10.462Z",
+          "notes": [
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "C♯/D♭ major_seventh",
+          "accidental": null,
+          "chord_type": "major_seventh",
+          "created_at": "2021-09-20T21:21:10.683Z",
+          "updated_at": "2021-09-20T21:21:10.683Z",
+          "notes": [
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            },
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "name": "D♯/E♭ Major",
+          "accidental": null,
+          "chord_type": "Major",
+          "created_at": "2021-09-20T21:21:41.068Z",
+          "updated_at": "2021-09-20T21:21:41.068Z",
+          "notes": [
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            }
+          ]
+        },
+        {
+          "id": 73,
+          "name": "D♯/E♭ dominant_seventh",
+          "accidental": null,
+          "chord_type": "dominant_seventh",
+          "created_at": "2021-09-20T21:22:32.029Z",
+          "updated_at": "2021-09-20T21:22:32.029Z",
+          "notes": [
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            },
+            {
+              "id": 8,
+              "name": "G",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.312Z",
+              "updated_at": "2021-09-20T21:20:53.312Z"
+            },
+            {
+              "id": 11,
+              "name": "A♯/B♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.446Z",
+              "updated_at": "2021-09-20T21:20:53.446Z"
+            },
+            {
+              "id": 2,
+              "name": "C♯/D♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.043Z",
+              "updated_at": "2021-09-20T21:20:53.043Z"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "F minor",
+          "accidental": null,
+          "chord_type": "minor",
+          "created_at": "2021-09-20T21:21:11.447Z",
+          "updated_at": "2021-09-20T21:21:11.447Z",
+          "notes": [
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "F minor_seventh",
+          "accidental": null,
+          "chord_type": "minor_seventh",
+          "created_at": "2021-09-20T21:21:11.672Z",
+          "updated_at": "2021-09-20T21:21:11.672Z",
+          "notes": [
+            {
+              "id": 6,
+              "name": "F",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.223Z",
+              "updated_at": "2021-09-20T21:20:53.223Z"
+            },
+            {
+              "id": 9,
+              "name": "G♯/A♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.357Z",
+              "updated_at": "2021-09-20T21:20:53.357Z"
+            },
+            {
+              "id": 1,
+              "name": "C",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:52.999Z",
+              "updated_at": "2021-09-20T21:20:52.999Z"
+            },
+            {
+              "id": 4,
+              "name": "D♯/E♭",
+              "accidental": null,
+              "pitch": null,
+              "created_at": "2021-09-20T21:20:53.133Z",
+              "updated_at": "2021-09-20T21:20:53.133Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
 
-export default Fminor; 
+export default Fminor;
