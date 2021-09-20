@@ -24,10 +24,17 @@ class SongWorkshop extends React.Component {
                 name: "C",
             },
             instrument: 'Piano',
-            naturalKeys: naturalKeyNames,
-            sharpKeys: sharpKeyNames,
-            flatKeys: flatKeyNames,
+           'naturalKeys': naturalKeyNames,
+           'sharpKeys': sharpKeyNames,
+           'flatKeys': flatKeyNames,
+            currentOption: ''
         };
+    }
+
+    handleOnClick = (event) => {
+        this.setState({
+            currentOption: event.target.value
+        })
     }
 
     handleOnChange = (event) => {
@@ -79,13 +86,13 @@ class SongWorkshop extends React.Component {
                             <Col>
                                 
                                 <div style={{marginBottom: '1%'}}>
-                                    <Button value="naturalKeys" className="accidental" style={{marginRight: '2%'}}>Natural</Button>
-                                    <Button value="sharpKeys" className="accidental" style={{marginRight: '2%'}}>Sharp</Button>
-                                    <Button value="flatKeys" className="accidental" style={{marginRight: '2%'}}>Flat</Button>
+                                    <Button onClick={event => this.handleOnClick(event)} value="naturalKeys" className="accidental" style={{marginRight: '2%'}}>Natural</Button>
+                                    <Button onClick={event => this.handleOnClick(event)} value="sharpKeys" className="accidental" style={{marginRight: '2%'}}>Sharp</Button>
+                                    <Button onClick={event => this.handleOnClick(event)} value="flatKeys" className="accidental" style={{marginRight: '2%'}}>Flat</Button>
                                 </div>
                                 <Selector 
                                     handleOnChange={this.handleKeyChange}
-                                    options={sharpKeyNames}
+                                    options={this.state[`${this.state.currentOption}`] || naturalKeyNames}
                                     name="name" 
                                 />
                             </Col>
