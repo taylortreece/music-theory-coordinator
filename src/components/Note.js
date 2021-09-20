@@ -6,9 +6,6 @@ class Note extends React.Component {
         super();
         this.state = {
             name: "",
-            position: 4,
-            url: '',
-            urlName: ''
         }
     }
 

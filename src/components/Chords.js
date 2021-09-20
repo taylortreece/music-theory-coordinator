@@ -9,9 +9,25 @@ class Chords extends React.Component {
         this.props.addChord(chord)
     }
 
+    createNoteName = (chord) => {
+        chord.notes.forEach(note => {
+            let name;
+
+            const noteNames = note.name.split('/')
+
+            if (this.props.chosenKey.name[1] === ('♯') || this.props.chosenKey.name[1] === ('♭')) {
+                name = noteNames.filter(name => (name[1] === this.props.chosenKey.name[1] || name.length === 1))[0] + "4"
+                note.urlName = name.replace('♯', 's')
+            } else {
+                note.urlName = noteNames[0] + "4"
+            }
+        })
+    }
+
     render() {
         return (
             this.props.scale.chords.map(chord => { 
+                this.createNoteName(chord)
                 return <Chord 
                     className='chord' 
                     id={chord.id} 

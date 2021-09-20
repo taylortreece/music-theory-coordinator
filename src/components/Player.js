@@ -4,41 +4,29 @@ import Button from 'react-bootstrap/Button';
 import * as Tone from 'tone'
 
 class Player extends React.Component {
+
     
     play = () => {
-        let notes = [
-            ["A4", "C4", "E4"],
-            ["C4", "F4", "G4"]
-        ]
-        // let notes = [
-        //     {position: 4, url: 'A4.mp3', name: 'A', urlName: 'A4', id: 10},
-        //     {position: 4, url: 'C4.mp3', name: 'C', urlName: 'C4', id: 1},
-        //     {position: 4, url: 'E4.mp3', name: 'E', urlName: 'E4', id: 5}
-        // ]
-        console.log(this.props.chords)
-        const sampler = new Tone.Sampler({
-            urls: {
-                'A4': 'A4.mp3',
-            },
-            release: 1,
-            baseUrl: "https://tonejs.github.io/audio/salamander/",
-        }).toDestination();
-        
-        for(const noteGroups of notes) {
-            setTimeout(
-                Tone.loaded().then(() => {
-                sampler.triggerAttackRelease(noteGroups, 4);
-                }, 1000)
-            )
-        }
-        
-        
-        // const synth = new Tone.Synth().toDestination();
+        this.props.chords.forEach(chord => {
+            let notes = chord.notes.map(note => (note.urlName))
+            let timer;
 
-        // const now = Tone.now()
-        // synth.triggerAttackRelease(notes[0]['urlName'], "8n", now)
-        // synth.triggerAttackRelease(notes[1]['urlName'], "8n", now + 0.5)
-        // synth.triggerAttackRelease(notes[2]['urlName'], "8n", now + 1)
+            setTimeout(() => {
+                const sampler = new Tone.Sampler({
+                    urls: {
+                        "C4": "C4.mp3",
+                    },
+                    release: 1,
+                    baseUrl: "https://tonejs.github.io/audio/salamander/",
+                }).toDestination();
+                
+                Tone.loaded().then(() => {
+                    sampler.triggerAttackRelease(notes, 4);
+                })
+
+                timer = 500
+            }, timer)
+        })
     }
 
     render() {
