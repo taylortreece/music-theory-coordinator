@@ -5,33 +5,39 @@ import * as Tone from 'tone'
 
 class Player extends React.Component {
 
-    
-    play = () => {
+    startSong = () => {
+        let counter = 0
         this.props.chords.forEach(chord => {
             let notes = chord.notes.map(note => (note.urlName))
-            let timer;
+            this.play(notes, counter)
 
-            setTimeout(() => {
-                const sampler = new Tone.Sampler({
-                    urls: {
-                        "C4": "C4.mp3",
-                    },
-                    release: 1,
-                    baseUrl: "https://tonejs.github.io/audio/salamander/",
-                }).toDestination();
-                
-                Tone.loaded().then(() => {
-                    sampler.triggerAttackRelease(notes, 4);
-                })
-
-                timer = 500
-            }, timer)
+            // change bpm: change counter+= in startSong
+            counter += 1000
         })
+    }
+    
+    play = (notes, counter) => {
+        setTimeout(() => {
+            const sampler = new Tone.Sampler({
+            urls: {
+                "C4": "C4.mp3",
+            },
+            release: 1,
+            baseUrl: "https://tonejs.github.io/audio/salamander/",
+        }).toDestination()
+
+        Tone.loaded().then(() => {
+            sampler.triggerAttack(notes, Tone.now())
+
+            // change length of release: change + 1 in triggerRelease
+            sampler.triggerRelease(notes, Tone.now() + 1);
+        })
+        }, counter)
     }
 
     render() {
         return (
-            <Button onClick={this.play}>Play</Button>
+            <Button onClick={this.startSong}>Play</Button>
         )
     }
 }

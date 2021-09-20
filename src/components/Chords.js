@@ -12,14 +12,16 @@ class Chords extends React.Component {
     createNoteName = (chord) => {
         chord.notes.forEach(note => {
             let name;
+            let num;
+            note.id > chord.notes[0].id ? num = 3 : num = 4
 
             const noteNames = note.name.split('/')
 
             if (this.props.chosenKey.name[1] === ('♯') || this.props.chosenKey.name[1] === ('♭')) {
-                name = noteNames.filter(name => (name[1] === this.props.chosenKey.name[1] || name.length === 1))[0] + "4"
-                note.urlName = name.replace('♯', 's')
+                name = noteNames.filter(name => (name[1] === this.props.chosenKey.name[1] || name.length === 1))[0] + num
+                note.urlName = name.replace('♯', '#')
             } else {
-                note.urlName = noteNames[0] + "4"
+                note.urlName = noteNames[0] + num
             }
         })
     }
