@@ -6,6 +6,7 @@ import * as Tone from 'tone'
 class Player extends React.Component {
 
     startSong = () => {
+        debugger
         let counter = 0
         this.props.chords.forEach(chord => {
             let notes = chord.notes.map(note => (note.urlName))
@@ -17,6 +18,7 @@ class Player extends React.Component {
     }
     
     play = (notes, counter) => {
+        debugger
         setTimeout(() => {
             const sampler = new Tone.Sampler({
             urls: {

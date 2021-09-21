@@ -84,7 +84,6 @@ class SongWorkshop extends React.Component {
                                 />
                             </Col>
                             <Col>
-                                
                                 <div style={{marginBottom: '1%'}}>
                                     <Button onClick={event => this.handleOnClick(event)} value="naturalKeys" className="accidental" style={{marginRight: '2%'}}>Natural</Button>
                                     <Button onClick={event => this.handleOnClick(event)} value="sharpKeys" className="accidental" style={{marginRight: '2%'}}>Sharp</Button>

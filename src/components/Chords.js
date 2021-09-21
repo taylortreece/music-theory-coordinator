@@ -19,7 +19,7 @@ class Chords extends React.Component {
 
             // creating options for notes
             const noteNames = note.name.split('/')
-
+            
             // selecting proper option based on key name. Standard is sharp if key is natural.
             // urlName is also created here. Edit if this necessary when creating audio libraries. 
             if (this.props.chosenKey.name[1] === ('♯') || this.props.chosenKey.name[1] === ('♭')) {
