@@ -1,5 +1,4 @@
 import React from 'react'
-import CreateUser from './CreateUser'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -13,9 +12,10 @@ class UserSongs extends React.Component {
             <Container>
                 <Row>
                     <Col>
-                        {this.props.songs === [] ?
+                        {
+                        this.props.songs === [] ?
                         <h1>Hello</h1> :
-                        <CreateUser />
+                        <h1>You have no songs</h1>
                     }
                     </Col>
                 </Row>

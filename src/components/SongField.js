@@ -2,7 +2,9 @@ import React from 'react'
 import { connect } from 'react-redux'
 import Chord from './Chord'
 import { v4 as uuidv4 } from 'uuid'
+import Button from 'react-bootstrap/Button';
 import { removeChord } from '../actions/song'
+import SongForm from './SongForm'
 
 class SongField extends React.Component {
     onHandleClick = (chord) => {
@@ -11,7 +13,11 @@ class SongField extends React.Component {
 
     render() {
         return (
-            <div className="songField"
+            <div><br />
+            { this.props.chords.length > 0 ? 
+            <SongForm chords={this.props.chords} handleOnSubmit={this.handleOnSubmit} />
+            : null }
+                <div className="songField"
                 style={{
                 backgroundColor: 'white',
                 marginTop: '5%',
@@ -32,7 +38,9 @@ class SongField extends React.Component {
                             action={this.onHandleClick}
                         />
                     ))}
+                </div>
             </div>
+            
         )
     }
     

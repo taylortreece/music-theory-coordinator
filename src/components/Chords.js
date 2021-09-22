@@ -11,23 +11,10 @@ class Chords extends React.Component {
 
     createNoteName = (chord) => {
         chord.notes.forEach(note => {
-            let name;
             let num;
-
-            // chosing proper starting position for notes
-            note.id > chord.notes[0].id ? num = 3 : num = 4
-
-            // creating options for notes
+            note.id > chord.notes[0].id ? num = 2 : num = 3
             const noteNames = note.name.split('/')
-            
-            // selecting proper option based on key name. Standard is sharp if key is natural.
-            // urlName is also created here. Edit if this necessary when creating audio libraries. 
-            if (this.props.chosenKey.name[1] === ('♯') || this.props.chosenKey.name[1] === ('♭')) {
-                name = noteNames.filter(name => (name[1] === this.props.chosenKey.name[1] || name.length === 1))[0] + num
-                note.urlName = name.includes('♯') ? name.replace('♯', '#') : name.replace('♭', 'b')
-            } else {
-                note.urlName = noteNames[0] + num
-            }
+            note.urlName = noteNames[0].replace('♯', '#') + num
         })
     }
 

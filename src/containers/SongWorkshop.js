@@ -51,6 +51,10 @@ class SongWorkshop extends React.Component {
         })
     }
 
+    handleSaveClick = (event) => {
+        debugger
+    }
+
     componentDidUpdate(prevProps, prevState, snapshot) {
         if (prevState.key !== this.state.key) {
             this.props.fetchKey(this.state.key)
