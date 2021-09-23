@@ -3,7 +3,7 @@ import { saveSong } from '../actions/song'
 import { connect } from 'react-redux'
 
 class SongForm extends React.Component {
-    constructor(props) {
+    constructor() {
         super();
         this.state = {
             songName: '',
@@ -12,13 +12,13 @@ class SongForm extends React.Component {
 
     handleOnSubmit = (event) => {
         event.preventDefault();
-        this.props.saveSong({
+        this.props.saveSong({song: {
             key: this.props.chosenKey.name,
-            keyType: this.props.chosenKey.key_type,
-            scale: this.props.scale.name,
-            chords: this.props.chords.map(chord => (chord.id)),
-            songName: this.state.songName
-        })
+            key_type: this.props.chosenKey.key_type,
+            scale: this.props.scale,
+            chord_ids: this.props.chords.map(chord => (chord.id)),
+            name: this.state.songName
+        }})
     }
 
     handleOnChange = (event) => {

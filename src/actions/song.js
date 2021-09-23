@@ -13,6 +13,13 @@ export function removeChord(chord) {
     }
 }
 
+export function selectSong(song) {
+    return {
+        type: "SELECT_SONG",
+        song
+    }
+}
+
 export function saveSong(song) {
     return (dispatch) => {
         fetch('http://localhost:3001/songs', 
@@ -27,7 +34,19 @@ export function saveSong(song) {
         .then(response => response.json())
         .then(data => dispatch({
             type: "SAVE_SONG",
-            data
+            song,
+            message: data
+        }))
+    }
+}
+
+export function fetchSongs() {
+    return (dispatch) => {
+        fetch('http://localhost:3001/songs')
+        .then(response => response.json())
+        .then(data => dispatch({
+            type: 'FETCH_SONGS',
+            songs: data
         }))
     }
 }

@@ -86,6 +86,10 @@ export default function keyReducer(state = {
             chosenScale: action.key.scale
         }
     
+        case "SELECT_SONG":
+            console.log("I have reached the Key Reducer")
+
+        return state
 
     default:
         return state
