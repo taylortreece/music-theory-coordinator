@@ -51,10 +51,6 @@ class SongWorkshop extends React.Component {
         })
     }
 
-    handleSaveClick = (event) => {
-        debugger
-    }
-
     componentDidUpdate(prevProps, prevState, snapshot) {
         if (prevState.key !== this.state.key) {
             this.props.fetchKey(this.state.key)
@@ -85,6 +81,7 @@ class SongWorkshop extends React.Component {
                                     handleOnChange={this.handleKeyChange}
                                     options={['Major', 'minor']}
                                     name="type" 
+                                    value={this.props.chosenKey.key_type}
                                 />
                             </Col>
                             <Col>
@@ -97,6 +94,7 @@ class SongWorkshop extends React.Component {
                                     handleOnChange={this.handleKeyChange}
                                     options={this.state[`${this.state.currentOption}`] || naturalKeyNames}
                                     name="name" 
+                                    value={this.props.chosenKey.name}
                                 />
                             </Col>
                             <Col>
@@ -104,6 +102,7 @@ class SongWorkshop extends React.Component {
                                     handleOnChange={this.handleKeyChange}
                                     options={this.props.chosenKey.scales.map(scale => (scale.scale_type))}
                                     name="scale" 
+                                    value={this.props.chosenScale}
                                 />
                             </Col>
                         </Row>

@@ -87,9 +87,19 @@ export default function keyReducer(state = {
         }
     
         case "SELECT_SONG":
-            console.log("I have reached the Key Reducer")
+            let key = Keys.filter(key => (
+                key.name + key.key_type === action.song.key + action.song.key_type
+            ))[0]
+        return {...state, 
+            chosenKey: key,
+            chosenScale: action.song.scale,
+        }
 
-        return state
+        case "SAVE_SONG":
+            return {
+                chosenKey: CMajor,
+                chosenScale: 'Ionian'
+            }
 
     default:
         return state

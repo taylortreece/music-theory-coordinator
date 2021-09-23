@@ -5,6 +5,8 @@ import Col from 'react-bootstrap/Col';
 import { fetchSongs } from '../actions/song'
 import { connect } from 'react-redux'
 import UserSong from './UserSong'
+import { selectSong } from '../actions/song'
+import { deleteSong } from '../actions/song'
 
 
 class UserSongs extends React.Component {
@@ -14,7 +16,11 @@ class UserSongs extends React.Component {
     }
 
     handleOnClick = (song) => {
-        console.log(song.name)
+        this.props.selectSong(song)
+    }
+
+    handleOnDblClick = (song) => {
+        this.props.deleteSong(song)
     }
 
     render() {
@@ -27,7 +33,8 @@ class UserSongs extends React.Component {
                         this.props.songs.map(song => (
                             <UserSong 
                             song={song}
-                            handleOnClick={this.handleOnClick} />
+                            handleOnClick={this.handleOnClick}
+                            handleOnDblClick={this.handleOnDblClick} />
                         )) :
                         <h1>You have no songs</h1>
                     }
@@ -44,4 +51,4 @@ const mapStateToProps = state => {
     }
 }
 
-export default connect(mapStateToProps, { fetchSongs })(UserSongs);
+export default connect(mapStateToProps, { fetchSongs, selectSong, deleteSong })(UserSongs);

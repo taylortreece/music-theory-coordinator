@@ -12,13 +12,20 @@ class SongForm extends React.Component {
 
     handleOnSubmit = (event) => {
         event.preventDefault();
+
         this.props.saveSong({song: {
             key: this.props.chosenKey.name,
             key_type: this.props.chosenKey.key_type,
             scale: this.props.scale,
             chord_ids: this.props.chords.map(chord => (chord.id)),
-            name: this.state.songName
-        }})
+            name: this.state.songName || this.props.chosenSong.name
+            },
+            id: this.props.chosenSong.id
+        })
+
+        this.setState({
+            songName: ''
+        })
     }
 
     handleOnChange = (event) => {
@@ -32,7 +39,12 @@ class SongForm extends React.Component {
         return (
             <form onSubmit={this.handleOnSubmit}>
                 <label>Song Name:</label>
-                <input onChange={this.handleOnChange} type='text' name="songName" value={this.state.songName} placeholder='song name...' />
+                <input 
+                    onChange={this.handleOnChange} 
+                    type='text' 
+                    name="songName"
+                    placeholder={this.props.chosenSong.name} 
+                />
                 <input type='submit' />
             </form>
         )
@@ -44,7 +56,8 @@ const mapStateToProps = (state) => {
     return {
         chords: state.songReducer.chords,
         scale: state.keyReducer.chosenScale,
-        chosenKey: state.keyReducer.chosenKey
+        chosenKey: state.keyReducer.chosenKey,
+        chosenSong: state.songReducer.chosenSong
     }
 }
 export default connect(mapStateToProps, { saveSong })(SongForm)

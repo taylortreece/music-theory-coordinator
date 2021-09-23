@@ -1,8 +1,12 @@
 import React from 'react'
 
-const UserSong = ({ song, handleOnClick }) => {
+const UserSong = ({ song, handleOnClick, handleOnDblClick }) => {
     return (
-        <h1 onClick={() => handleOnClick(song)}>{song.name}</h1>
+        <div>
+            <p onClick={() => handleOnDblClick(song)}>x</p>
+            <h1 onClick={() => handleOnClick(song)} onDblClick={()=> handleOnDblClick(song)}>{song.name}</h1>
+        </div>
+        
     )
 }
 

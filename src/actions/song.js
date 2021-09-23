@@ -21,21 +21,23 @@ export function selectSong(song) {
 }
 
 export function saveSong(song) {
+    let appendage = song.id ? `songs/${song.id}` : 'songs'
+    let request = song.id ? 'PATCH' : 'POST'
+
     return (dispatch) => {
-        fetch('http://localhost:3001/songs', 
+        fetch('http://localhost:3001/' + appendage, 
         {
         headers: {
             'Content-type': 'application/json',
             'Accept': 'application/json',
             },
-        method: 'POST',
+        method: `${request}`,
         body: JSON.stringify(song)
         })
         .then(response => response.json())
         .then(data => dispatch({
             type: "SAVE_SONG",
-            song,
-            message: data
+            songs: data
         }))
     }
 }
@@ -46,6 +48,26 @@ export function fetchSongs() {
         .then(response => response.json())
         .then(data => dispatch({
             type: 'FETCH_SONGS',
+            songs: data
+        }))
+    }
+}
+
+export function deleteSong(song) {
+
+    return (dispatch) => {
+        fetch(`http://localhost:3001/songs/${song.id}`,
+        {
+        headers: {
+            'Content-type': 'application/json',
+            'Accept': 'application/json',
+            },
+        method: 'DELETE',
+        body: JSON.stringify(song)
+        })
+        .then(response => response.json())
+        .then(data => dispatch({
+            type: "DELETE_SONG",
             songs: data
         }))
     }
