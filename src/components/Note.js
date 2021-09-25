@@ -1,5 +1,6 @@
 import { connect } from 'react-redux'
 import React from 'react'
+import '../css/Note.css'
 
 class Note extends React.Component {
     createNoteName = () => {
@@ -20,7 +21,7 @@ class Note extends React.Component {
     render() {
         return (
             <div>
-                <h6 style={{display: 'block', float: 'left', marginRight: '50%'}}>{this.createNoteName(this.props.note)}</h6>
+                <h6 className='note'>{this.createNoteName(this.props.note)}</h6>
             </div>
         )
     }

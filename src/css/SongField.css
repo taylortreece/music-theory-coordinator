@@ -1,0 +1,10 @@
+.songField {
+    background-color: white;
+    margin-top: 5%;
+    border: solid;
+    width: 100%;
+    height: "auto";
+    overflow: auto;
+    content: "";
+    display: block;
+}

@@ -4,6 +4,7 @@ import Chord from '../components/Chord'
 import { v4 as uuidv4 } from 'uuid'
 import { removeChord } from '../actions/song'
 import SongForm from '../components/SongForm'
+import '../css/SongField.css'
 
 class SongField extends React.Component {
     onHandleClick = (chord) => {
@@ -16,22 +17,11 @@ class SongField extends React.Component {
             { this.props.chords.length > 0 ? 
             <SongForm chords={this.props.chords} handleOnSubmit={this.handleOnSubmit} />
             : null }
-                <div className="songField"
-                style={{
-                backgroundColor: 'white',
-                marginTop: '5%',
-                border: 'solid',
-                width: '100%',
-                height: "auto",
-                minHeight: '300px',
-                overflow: "auto",
-                content: "",
-                display:"block"
-                }}>
-                    {this.props.chords.map((chord, idx) => (
+                <div className="songField" style={{minHeight:'300px'}}>
+                    {this.props.chords.map((chord,) => (
                         <Chord 
                             key={uuidv4()} 
-                            chord={{...chord}}
+                            chord={chord}
                             buttonAction="remove"
                             variant="outline-danger"
                             action={this.onHandleClick}

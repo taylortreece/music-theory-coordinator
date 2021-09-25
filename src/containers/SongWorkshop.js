@@ -65,7 +65,6 @@ class SongWorkshop extends React.Component {
                         <Row>
                             <Banner 
                                 instrument={this.state.instrument}
-                                style={{transform: "scaleX(-1)"}}
                             />
                         </Row>
                     </Col>
@@ -102,7 +101,10 @@ class SongWorkshop extends React.Component {
                             </Col>
                         </Row>
                         <Row>
-                            <Chords scale={this.props.chosenKey.scales.filter(scale => (scale.scale_type === this.props.chosenScale))[0]}/>
+                            <Chords 
+                              scale={this.props.chosenKey.scales.filter(scale => 
+                              (scale.scale_type === this.props.chosenScale))[0]}
+                            />
                         </Row>
                         <Row>
                             <SongField />

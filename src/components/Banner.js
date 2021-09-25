@@ -6,7 +6,6 @@ const Banner = ({ instrument, style }) => {
             key={instrument} 
             src={`${instrument}.png`} 
             alt={`${instrument}`} 
-            style={style}
         />
     )
 }
