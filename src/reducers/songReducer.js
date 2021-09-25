@@ -100,7 +100,6 @@ export default function songReducer(state = {
         ]}
         
         case "REMOVE_CHORD":
-        debugger
         return {
             ...state,
             songs: [...state.songs],
@@ -108,7 +107,6 @@ export default function songReducer(state = {
         }
 
         case "SAVE_SONG":
-            debugger
         return {
             ...state, 
             chords: [], 
@@ -131,7 +129,11 @@ export default function songReducer(state = {
             ...state, 
             chords: action.song.chord_ids.map(id => {
                 for(const chord of chords) {
-                    if (chord.id === id) { return chord }
+                    if (chord.id === id) { 
+                        return { 
+                        ...chord, 
+                        songChordId: uuidv4() 
+                    }}
                 }
             }),
             chosenSong: action.song

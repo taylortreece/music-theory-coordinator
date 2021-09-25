@@ -1,10 +1,9 @@
 import React from 'react' 
 import { connect } from 'react-redux'
-import Chord from './Chord'
+import Chord from '../components/Chord'
 import { v4 as uuidv4 } from 'uuid'
-import Button from 'react-bootstrap/Button';
 import { removeChord } from '../actions/song'
-import SongForm from './SongForm'
+import SongForm from '../components/SongForm'
 
 class SongField extends React.Component {
     onHandleClick = (chord) => {

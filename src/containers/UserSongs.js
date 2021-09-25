@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { fetchSongs } from '../actions/song'
 import { connect } from 'react-redux'
-import UserSong from './UserSong'
+import UserSong from '../components/UserSong'
 import { selectSong } from '../actions/song'
 import { deleteSong } from '../actions/song'
 

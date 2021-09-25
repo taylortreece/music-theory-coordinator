@@ -4,9 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Note from './Note';
 
-class Chord extends React.Component {
-    
-    render() {
+const Chord = ({ chord, buttonAction, variant, action }) => {
         return (
             <Card style={{ 
                 display: 'block',
@@ -18,32 +16,30 @@ class Chord extends React.Component {
                 fontSize: '75%'
                 }}>
                 <Card.Header>
-                    {this.props.chord.name.replace("_", " ")}
+                    {chord.name.replace("_", " ")}
                 </Card.Header>
                 
-                {this.props.chord.notes.map(note => (
+                {chord.notes.map(note => (
                     <ListGroup variant="flush" key={note.id}>
                         <ListGroup.Item>
                             <Note 
                             note={note} 
-                            buttonAction={this.props.buttonAction} 
-                            updateChordNotes={this.updateChordNotes}
-                            consoleNoteInfo={this.consoleNoteInfo}
+                            buttonAction={buttonAction} 
                             />
                         </ListGroup.Item>
                     </ListGroup>
                 ))}
+                
                 <Card.Footer>
                     <Button 
-                    onClick={() => this.props.action(this.props.chord)} 
-                    variant={this.props.variant}
+                    onClick={() => action(chord)} 
+                    variant={variant}
                     >
-                        {this.props.buttonAction}
+                        {buttonAction}
                     </Button>
                 </Card.Footer>
             </Card>
         )
     }
-}
 
 export default Chord;

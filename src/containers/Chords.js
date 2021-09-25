@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { addChord } from '../actions/song'
-import Chord from './Chord'
+import Chord from '../components/Chord'
 
 class Chords extends React.Component {
 
@@ -9,7 +9,7 @@ class Chords extends React.Component {
         this.props.addChord(chord)
     }
 
-    createNoteName = (chord) => {
+    createUrlName = (chord) => {
         chord.notes.forEach(note => {
             let num;
             note.id > chord.notes[0].id ? num = 2 : num = 3
@@ -21,7 +21,7 @@ class Chords extends React.Component {
     render() {
         return (
             this.props.scale.chords.map(chord => { 
-                this.createNoteName(chord)
+                this.createUrlName(chord)
                 return <Chord 
                     className='chord' 
                     id={chord.id} 

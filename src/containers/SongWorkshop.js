@@ -6,9 +6,9 @@ import { naturalKeyNames, sharpKeyNames, flatKeyNames } from '../data/keyNames'
 
 import Banner from '../components/Banner'
 import Selector from '../components/Selector'
-import UserSongs from '../components/UserSongs'
-import SongField from '../components/SongField'
-import Chords from '../components/Chords'
+import UserSongs from './UserSongs'
+import SongField from './SongField'
+import Chords from './Chords'
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
@@ -67,11 +67,6 @@ class SongWorkshop extends React.Component {
                                 instrument={this.state.instrument}
                                 style={{transform: "scaleX(-1)"}}
                             />
-                            <Selector 
-                                handleOnChange={this.handleOnChange}
-                                options={['Piano', 'Guitar',  'Violin']}
-                                name='instrument'
-                                />
                         </Row>
                     </Col>
                     <Col xs={7} lg={7}>
@@ -116,9 +111,6 @@ class SongWorkshop extends React.Component {
                     </Col>
                     <Col>
                         <Row>
-                            <Banner 
-                                instrument={this.state.instrument}
-                            />
                             <h1>Your Songs:</h1>
                             <UserSongs />
                         </Row>
