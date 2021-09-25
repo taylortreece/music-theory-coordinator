@@ -2,11 +2,12 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
+import '../css/NavBar.css'
 
 const NavBar = () => {
     return (
       <Container>
-        <Navbar expand="lg" variant="light" bg="light">
+        <Navbar className='nav' expand="xsm" variant="light" bg="light">
           <NavLink 
            className="navlink"
            to='/theory-information'

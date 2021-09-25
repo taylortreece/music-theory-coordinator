@@ -1,0 +1,13 @@
+.selectors {
+    background-color: rgba(0, 0, 0, 0.644);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border: solid rgba(236, 228, 228, 0.801);
+    border-width: 10px;
+}
+
+.selector {
+    display: block;
+    margin-left: 10%;
+    height: 100%;
+    width: 250%;
+}
