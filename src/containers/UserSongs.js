@@ -7,6 +7,7 @@ import { connect } from 'react-redux'
 import UserSong from '../components/UserSong'
 import { selectSong } from '../actions/song'
 import { deleteSong } from '../actions/song'
+import '../css/SongList.css'
 
 
 class UserSongs extends React.Component {
@@ -19,14 +20,14 @@ class UserSongs extends React.Component {
         this.props.selectSong(song)
     }
 
-    handleOnDblClick = (song) => {
+    handleOnDeleteClick = (song) => {
         this.props.deleteSong(song)
     }
 
     render() {
         return (
             <Container>
-                <Row>
+                <Row className='songList'>
                     <Col>
                         {
                         this.props.songs.length > 0 ?
@@ -34,7 +35,9 @@ class UserSongs extends React.Component {
                             <UserSong 
                             song={song}
                             handleOnClick={this.handleOnClick}
-                            handleOnDblClick={this.handleOnDblClick} />
+                            handleOnDeleteClick={this.handleOnDeleteClick} 
+                            key={song.id}
+                        />
                         )) :
                         <h1>You have no songs</h1>
                     }

@@ -1,0 +1,23 @@
+.song-form {
+    background-color: rgba(255, 255, 255, 0.781);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: -3.5%;
+    display:block;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: .5%
+}
+
+.song-label {
+    font-size: 255%;
+    margin-right: 5%;
+}
+
+.song-input {
+    width: 45%;
+    height: 2vh;
+    margin-right: 3%;
+    font-size: 150%;
+}

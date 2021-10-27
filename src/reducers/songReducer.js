@@ -110,7 +110,8 @@ export default function songReducer(state = {
         return {
             ...state, 
             chords: [], 
-            songs: action.songs
+            songs: action.songs,
+            chosenSong: {}
         }
 
         case "FETCH_SONGS":
@@ -143,8 +144,9 @@ export default function songReducer(state = {
 
         return {
             ...state, 
-            chords: [...state.chords], 
-            songs: action.songs
+            chords: [], 
+            songs: action.songs,
+            chosenSong: {}
         }
 
     default:
