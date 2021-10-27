@@ -66,9 +66,7 @@ class SongWorkshop extends React.Component {
                 <Row>
                     <Col>
                         <Row>
-                            <Banner 
-                                instrument={this.state.instrument}
-                            />
+                            
                         </Row>
                     </Col>
                     <Col xs={7} lg={7}>
@@ -120,8 +118,7 @@ class SongWorkshop extends React.Component {
                     </Col>
                     <Col>
                         <Row>
-                            <h1>Your Songs:</h1>
-                            <UserSongs />
+                            
                         </Row>
                     </Col>
                 </Row>
