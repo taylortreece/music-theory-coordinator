@@ -15,8 +15,9 @@
 }
 
 .navlink:hover {
-    text-decoration: underline;
-    color: rgba(0, 0, 0, 0.568)
+    transition: 150ms;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.315)
 }
 
 .navlink:active {

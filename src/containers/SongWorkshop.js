@@ -4,9 +4,7 @@ import { fetchKey } from '../actions/key'
 import Player from '../components/Player'
 import { naturalKeyNames, sharpKeyNames, flatKeyNames } from '../data/keyNames'
 
-import Banner from '../components/Banner'
 import Selector from '../components/Selector'
-import UserSongs from './UserSongs'
 import SongField from './SongField'
 import Chords from './Chords'
 import Container from 'react-bootstrap/Container';
@@ -71,9 +69,8 @@ class SongWorkshop extends React.Component {
                     </Col>
                     <Col xs={7} lg={7}>
                         <Row className='selectors'>
-                            <Col className='selector'>
+                            <Col className='type-selector'>
                                 <Selector 
-                                    size='lg'
                                     handleOnChange={this.handleKeyChange}
                                     options={['Major', 'minor']}
                                     name="type" 
@@ -82,15 +79,14 @@ class SongWorkshop extends React.Component {
                             </Col>
                             <Col className='key-buttons'>
                                 <Selector 
-                                    size='lg'
-                                    className='selector'
+                                    id="key-selector"
                                     handleOnChange={this.handleKeyChange}
                                     options={this.state[`${this.state.currentOption}`] || naturalKeyNames}
                                     name="name" 
                                     value={this.props.chosenKey.name}
                                 />
                                 <div style={{marginBottom: '1%'}}>
-                                    <Button onClick={event => this.handleOnClick(event)} value="naturalKeys" className="accidental" style={{marginRight: '2%'}}>Natural</Button>
+                                    <Button onClick={event => this.handleOnClick(event)} value="naturalKeys" className="accidental" style={{marginLeft: '7%', marginRight: '2%'}}>Natural</Button>
                                     <Button onClick={event => this.handleOnClick(event)} value="sharpKeys" className="accidental" style={{marginRight: '2%'}}>Sharp</Button>
                                     <Button onClick={event => this.handleOnClick(event)} value="flatKeys" className="accidental" style={{marginRight: '2%'}}>Flat</Button>
                                 </div>
@@ -102,6 +98,7 @@ class SongWorkshop extends React.Component {
                                     options={this.props.chosenKey.scales.map(scale => (scale.scale_type))}
                                     name="scale" 
                                     value={this.props.chosenScale}
+                                    style={{marginTop: '-9%'}}
                                 />
                             </Col>
                         </Row>

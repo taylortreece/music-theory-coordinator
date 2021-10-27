@@ -1,6 +1,7 @@
 import React from 'react'
 import { saveSong } from '../actions/song'
 import { connect } from 'react-redux'
+import '../css/SongForm.css'
 
 class SongForm extends React.Component {
     constructor() {
@@ -32,14 +33,14 @@ class SongForm extends React.Component {
         this.setState({
             [event.target.name]: event.target.value
         })
-        console.log(this.state.songName)
     }
 
     render() {
         return (
-            <form onSubmit={this.handleOnSubmit}>
-                <label>Song Name:</label>
+            <form className='song-form' onSubmit={this.handleOnSubmit}>
+                <label className='song-label'>Song Name:</label>
                 <input 
+                    className='song-input'
                     onChange={this.handleOnChange} 
                     type='text' 
                     name="songName"

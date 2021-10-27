@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Banner = ({ instrument, style }) => {
+const Banner = ({ instrument }) => {
     return (
         <img 
             key={instrument} 

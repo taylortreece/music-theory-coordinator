@@ -37,7 +37,7 @@ class Player extends React.Component {
 
     render() {
         return (
-            <Button onClick={this.startSong}>Play</Button>
+            <Button onClick={this.startSong} style={{marginBottom: '3%', marginLeft: 'auto', marginRight: 'auto', width: '99%', height: '2.5vh', fontSize: '1.3vh'}}>Play</Button>
         )
     }
 }
