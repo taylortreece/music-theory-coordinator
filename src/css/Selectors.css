@@ -3,6 +3,9 @@
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border: solid rgb(255, 255, 255);
     border-width: 10px;
+    width: 80%;
+    margin: 0 10% 0 10%;
+    max-height: 150px
 }
 
 .selector {
@@ -15,19 +18,34 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 4%;
+    min-width: 70px;
 }
 
 .accidental {
-    margin-top: 2%;
-    margin-left: 3%;
-    margin-bottom: 4%;
+    max-width: 100px;
     width: 25%;
     background-color: rgba(0, 0, 0, 0.719);
     border: black;
     text-align: center;
+    min-width: 40px;
+    margin: 0 0 4% 2%;
+}
+
+.accidentals {
+    text-align: center;
+    margin: 0 auto;
 }
 
 .accidental:hover {
     background-color: rgba(0, 0, 0, 0.568);
     border: rgba(0, 0, 0, 0.479);
+}
+
+
+
+  @media only screen and (max-width: 450px) {
+    .selectors {
+        width: 100%;
+        margin: 0;
+    }
 }

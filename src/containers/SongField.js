@@ -3,7 +3,6 @@ import { connect } from 'react-redux'
 import Chord from '../components/Chord'
 import { v4 as uuidv4 } from 'uuid'
 import { removeChord } from '../actions/song'
-import SongForm from '../components/SongForm'
 import '../css/SongField.css'
 
 class SongField extends React.Component {
@@ -13,10 +12,7 @@ class SongField extends React.Component {
 
     render() {
         return (
-            <div><br />
-            { this.props.chords.length > 0 ? 
-            <SongForm chords={this.props.chords} handleOnSubmit={this.handleOnSubmit} />
-            : null }
+            <div>
                 <div className="songField" style={{minHeight:'300px'}}>
                     {this.props.chords.map((chord,) => (
                         <Chord 

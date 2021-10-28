@@ -1,8 +1,8 @@
 .songField {
     background-color: white;
-    margin-top: 5%;
+    margin: 5% 10% 0 10%;
     border: solid;
-    width: 100%;
+    width: 80%;
     height: "auto";
     overflow: auto;
     content: "";
@@ -11,4 +11,26 @@
     border: solid rgba(236, 228, 228, 0.308);
     border-width: 10px;
 }
+
+.playButton {
+    height: '2.5vh';
+    font-size: '1.3vh';
+    width: 79.5%;
+    margin: 0 10.25% 5% 10.25%;
+}
+
+@media only screen and (max-width: 450px) {
+    .songField {
+      overflow: auto;
+      width: 100%;
+      height: 23%;
+      max-height: 200px;
+      margin: 4% 0 0 0;
+    }
+
+    .playButton {
+        width: 97%;
+        margin: 0 1.5% 5% 1.5%;
+    }
+  }
 

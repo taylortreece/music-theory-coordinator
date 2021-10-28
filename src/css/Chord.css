@@ -3,8 +3,37 @@
     float: left;
     margin-top: 2%;
     margin-left: 2%;
-    width: 15%;
-    min-width: 100px;
+    margin-right: 2%;
+    width: 20%;
     font-size: 120%;
     box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 8px;
+    min-width: 125px;
 }
+
+@media only screen and (max-width: 768px) {
+    .chord-card {
+      width: 30.5%;
+      margin: 2% 0 2% 2%;
+    }
+  }
+
+  @media only screen and (max-width: 575px) {
+    .chord-card {
+      width: 46%;
+      margin: 2% 0 2% 2%;
+    }
+  }
+
+/* @media only screen and (max-width: 378px) {
+    .chord-card {
+      width: 46%;
+      margin: 2% 0 2% 2%;
+    }
+  } */
+
+  @media only screen and (max-width: 281px) {
+    .chord-card {
+      width: 96%;
+      margin: 2% 0 2% 2%;
+    }
+  }

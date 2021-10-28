@@ -14,6 +14,7 @@ import Col from 'react-bootstrap/Col';
 
 import '../css/Chords.css'
 import '../css/Selectors.css'
+import '../css/SongWorkShop.css'
 
 class SongWorkshop extends React.Component {
     constructor() {
@@ -63,11 +64,6 @@ class SongWorkshop extends React.Component {
             <Container fluid>
                 <Row>
                     <Col>
-                        <Row>
-                            
-                        </Row>
-                    </Col>
-                    <Col xs={7} lg={7}>
                         <Row className='selectors'>
                             <Col className='type-selector'>
                                 <Selector 
@@ -85,11 +81,6 @@ class SongWorkshop extends React.Component {
                                     name="name" 
                                     value={this.props.chosenKey.name}
                                 />
-                                <div style={{marginBottom: '1%'}}>
-                                    <Button onClick={event => this.handleOnClick(event)} value="naturalKeys" className="accidental" style={{marginLeft: '7%', marginRight: '2%'}}>Natural</Button>
-                                    <Button onClick={event => this.handleOnClick(event)} value="sharpKeys" className="accidental" style={{marginRight: '2%'}}>Sharp</Button>
-                                    <Button onClick={event => this.handleOnClick(event)} value="flatKeys" className="accidental" style={{marginRight: '2%'}}>Flat</Button>
-                                </div>
                             </Col>
                             <Col className='selector'>
                                 <Selector 
@@ -101,6 +92,13 @@ class SongWorkshop extends React.Component {
                                     style={{marginTop: '-9%'}}
                                 />
                             </Col>
+                            <Row className="accidentals">
+                                <div style={{marginBottom: '1%'}}>
+                                    <Button onClick={event => this.handleOnClick(event)} value="naturalKeys" className="accidental" style={{marginLeft: "0%"}} >Natural</Button>
+                                    <Button onClick={event => this.handleOnClick(event)} value="sharpKeys" className="accidental" >Sharp</Button>
+                                    <Button onClick={event => this.handleOnClick(event)} value="flatKeys" className="accidental" >Flat</Button>
+                                </div>
+                            </Row>
                         </Row>
                         <Row className='chords'>
                             <Chords 
@@ -111,11 +109,6 @@ class SongWorkshop extends React.Component {
                         <Row>
                             <SongField />
                             <Player />
-                        </Row>
-                    </Col>
-                    <Col>
-                        <Row>
-                            
                         </Row>
                     </Col>
                 </Row>

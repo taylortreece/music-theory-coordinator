@@ -10,3 +10,9 @@
 .link {
     color: white;
 }
+
+.learnImage {
+    width: 80%;
+    margin: 0 10% 0 10%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
