@@ -15,7 +15,7 @@ class LearnTheory extends React.Component {
                             Starting off, the best way to understand music
                             is to know the foundation:<br /><br />
 
-                            <h2 style={{textAlign: "center", fontSize: "200%"}}>♩ ♪ ♫ Notes ♫ ♪ ♩</h2><br />
+                            <h2 style={{textAlign: "center", fontSize: "200%"}}>♫ Notes ♫</h2><br />
 
                             Don't worry, in almost every song you've ever
                             heard there are only twelve. If you're thinking 
@@ -50,7 +50,7 @@ class LearnTheory extends React.Component {
                         <p className='text'>
                             To build on our knowledge of the note's function, we reach:<br /><br />
 
-                            <h2 style={{textAlign: "center", fontSize: "200%"}}>♩ ♪ ♫ Scales ♫ ♪ ♩</h2><br />
+                            <h2 style={{textAlign: "center", fontSize: "200%"}}>♫ Scales ♫</h2><br />
                             scales are simply a collection of notes, and typcially around seven are in a traditional scale. 
                             The notes which are selected to be in a scale all depend on how they scale should sound.
                             As an example, the major scale is traditionally "happy", while the minor scale is traditionally "sad".<br /><br />
@@ -108,7 +108,7 @@ class LearnTheory extends React.Component {
                         </p>
                         <p className="text">
                             From scales, we can create our next building blocks:<br /><br />
-                            <h2 style={{textAlign: "center", fontSize: "200%"}}>♩ ♪ ♫ Chords ♫ ♪ ♩</h2><br />
+                            <h2 style={{textAlign: "center", fontSize: "200%"}}>♫ Chords ♫</h2><br />
                             <strong>Chords</strong>, just like scales, have formulas. We'll concentrate on the <strong>
                             Major Chord</strong> and <strong>Minor Chord</strong> as examples. 
                             Before we get to specific chords, though, let me define a <strong>chord</strong>. 

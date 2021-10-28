@@ -109,6 +109,11 @@ class SongWorkshop extends React.Component {
                         <Row>
                             <SongField />
                             <Player />
+                            <h3 className="notification" 
+                                style={{
+                                    backgroundColor: "rgb(159, 240, 159)",
+                                    textAlign: "center"
+                                }}>Audio on all mobile devices coming soon!</h3>
                         </Row>
                     </Col>
                 </Row>
