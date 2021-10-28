@@ -1,8 +1,7 @@
 .songField {
     background-color: white;
-    margin: 5% 10% 0 10%;
+    margin: 5% 0 0 0;
     border: solid;
-    width: 80%;
     height: "auto";
     overflow: auto;
     content: "";
@@ -13,10 +12,11 @@
 }
 
 .playButton {
+    text-align: center;
     height: '2.5vh';
     font-size: '1.3vh';
-    width: 79.5%;
-    margin: 0 10.25% 5% 10.25%;
+    margin: 0 0 5% .5%;
+    width: 99%;
 }
 
 @media only screen and (max-width: 450px) {

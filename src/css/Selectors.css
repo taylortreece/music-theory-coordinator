@@ -3,9 +3,7 @@
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border: solid rgb(255, 255, 255);
     border-width: 10px;
-    width: 80%;
-    margin: 0 10% 0 10%;
-    max-height: 150px
+    max-height: 150px;
 }
 
 .selector {

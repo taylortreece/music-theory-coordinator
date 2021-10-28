@@ -61,7 +61,7 @@ class SongWorkshop extends React.Component {
 
     render() {
         return (
-            <Container fluid>
+            <Container>
                 <Row>
                     <Col>
                         <Row className='selectors'>

@@ -9,7 +9,7 @@ class LearnTheory extends React.Component {
         return (
             <div>
                 <Container>
-                    <Row >
+                    <Row>
                         <Col>
                         <p className="text">
                             Starting off, the best way to understand music

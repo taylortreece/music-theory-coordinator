@@ -2,3 +2,9 @@
     background-color: rgb(159, 240, 159);
     color: white;
 }
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
