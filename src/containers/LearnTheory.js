@@ -62,7 +62,7 @@ class LearnTheory extends React.Component {
                             between them that defines the emotion you feel. For a proper definition: <strong>
                             an interval is the distance traveled, or the space between two notes.
                             </strong>
-                            <img className="learnImage" src="intervals-in-C-major-scale.png" /><br /><br />
+                            <img className="learnImage" src="intervals-in-C-major-scale.png" alt="C Major Scale Intervals" /><br /><br />
                             You can see here a visual representation of intervals.
                             From C to C# is a <strong>semitone</strong>, or a <strong>half step</strong>. 
                             From C to D is a <strong>whole tone</strong>, or <strong>whole step</strong>.
@@ -71,20 +71,20 @@ class LearnTheory extends React.Component {
                             would like to portry. Each of these intervals have a different
                             emotion associated with them. It is hard to describe them, but here is an image that
                             might help: <br /><br />
-                            <img className="learnImage" src="interval-emotions.png" /><br /><br />
+                            <img className="learnImage" src="interval-emotions.png" alt="Intervals and their emotions" /><br /><br />
                             For more information, 
                             <a href="https://howmusicreallyworks.com/Pages_Chapter_4/4_4.html" target="blank">Check here</a>.<br /><br />
                             So, we understand that a single interval is the space between two notes. 
                             The reason this is important is that this is the building block for a scale. 
                             A <strong>scale</strong> is a series of notes picked in a patern of intervals.
                             Let's start by breaking down the <strong>Major Scale</strong>: <br /><br />
-                            <img className="learnImage" src="major-scale.png" /><br /><br />
+                            <img className="learnImage" src="major-scale.png" alt="Major Scale" /><br /><br />
                             This is the Major Scale. This is all Major Scales. No matter what key, 
                             or what note you start with, the pattern is ALWAYS:<br /><br />
                             <strong>Whole-Step, Whole-Step, Half-Step, Whole-Step, Whole-step, 
                             Whole-step, Half-Step</strong> (repeat)<br /><br />
                             Here is another way to view the scale:<br /><br />
-                            <img className="learnImage" src="major-scale-intervals.png" /><br /><br />
+                            <img className="learnImage" src="major-scale-intervals.png" alt="Major Scale Intervals" /><br /><br />
                             You can see that the scale always comes full circle, ending up at its starting point.
                             The space between the two "C"s is called an <strong>Octave</strong>. They are the same notes, 
                             The second C is just twice as high. Each note oscilates, or vibrates, at a certain frequency. 
@@ -103,7 +103,7 @@ class LearnTheory extends React.Component {
                             the patterns are always the same. To make it a little easier to visualize though, 
                             follow this <a href="https://www.pianoscales.org/major.html">link</a> to see the major scale (and other scales) in
                             every key. Remember, music is about patterns. Here is a table to help you visualize the modes: <br /><br />
-                            <img className="learnImage" src="major-scale-modes-table.png" /><br /><br />
+                            <img className="learnImage" src="major-scale-modes-table.png" alt="List of Modes" /><br /><br />
 
                         </p>
                         <p className="text">
@@ -118,11 +118,11 @@ class LearnTheory extends React.Component {
                             So, first is the major chord. If you remember your intervals, that's good: because they are
                             still in play. <br /><br />
                             Here is the formula for building the Major Chord: <br /><br />
-                            <img className="learnImage" src="C-Maj-with-intervals.jpg" /><br /><br />
+                            <img className="learnImage" src="C-Maj-with-intervals.jpg" alt="Major Chord Intervals" /><br /><br />
                             Here is the formula for building the Minor Chord: <br /><br />
-                            <img className="learnImage" src="C-min-chord-with-intervals.jpg" /><br /><br />
+                            <img className="learnImage" src="C-min-chord-with-intervals.jpg" alt="Minor Chord Intervals" /><br /><br />
                             Here is the formula for building the Diminished Chord: <br /><br />
-                            <img className="learnImage" src="C-dim-with-intervals.jpg" /><br /><br />
+                            <img className="learnImage" src="C-dim-with-intervals.jpg" alt="Diminished Chord Intervals" /><br /><br />
 
                             Great. And just like scales, it doesn't matter what you use for the root note. The same formula applies for each chord. 
                             This is how you build them. Although, that leads to the next question: <strong>How should the be arranged?</strong><br /><br />
@@ -134,7 +134,7 @@ class LearnTheory extends React.Component {
                             <a href="https://www.musikalessons.com/blog/2017/01/basic-music-theory/">Here is a visual representation</a>. Here,
                             You will also find a section on other topics covered here that might help illuminate questions you might have. Scroll down to
                             "Roman Numeral Analysis" to find the part on how scale degrees corellate to chords. Here is a quick idea of what's going on: <br /><br />
-                            <img className="learnImage" src="scale-degrees-major-scale.png" /><br /><br />
+                            <img className="learnImage" src="scale-degrees-major-scale.png" alt="Scale Degrees" /><br /><br />
                             Here you can see the scale degrees line up with each note using Roman Numerals. At the top, you can see each 
                             degree is assigned a value: Major or Minor. To create chord progressions, you take the note of the coresponding
                             degree and use that as the root note either a Major or Minor chord depending on the degree. So, say you wanted to play a
