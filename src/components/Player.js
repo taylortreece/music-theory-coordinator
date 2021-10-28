@@ -38,7 +38,14 @@ class Player extends React.Component {
 
     render() {
         return (
-            <Button className="playButton" onClick={this.startSong}>Play</Button>
+            <Button 
+                className="playButton" 
+                onMouseUp={this.startSong} 
+                onTouchStart={this.startSong}
+                onTouchEnd={this.startSong}
+            >
+                Play
+            </Button>
         )
     }
 }
