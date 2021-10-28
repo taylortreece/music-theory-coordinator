@@ -18,11 +18,11 @@ class OtherResources extends React.Component {
             <Row>
                 <Col>
                 <div className='text'>
-                    <a href="https://www.musictheory.net/">https://www.musictheory.net/</a><br /><br />
-                    <a href="https://en.wikipedia.org/wiki/Music_theory">https://en.wikipedia.org/wiki/Music_theory</a><br /><br />
-                    <a href="https://blog.landr.com/music-theory/">https://blog.landr.com/music-theory/</a><br /><br />
-                    <a href="https://www.britannica.com/browse/Music-Theory">https://www.britannica.com/browse/Music-Theory</a><br /><br />
-                    <a href="https://2012books.lardbucket.org/pdfs/music-theory.pdf">https://2012books.lardbucket.org/pdfs/music-theory.pdf</a><br /><br />
+                <a href="https://www.musictheory.net/">Music Theory Site</a><br /><br />
+                    <a href="https://en.wikipedia.org/wiki/Music_theory">Music Theory Wiki</a><br /><br />
+                    <a href="https://blog.landr.com/music-theory/">Music Theory Blog</a><br /><br />
+                    <a href="https://www.britannica.com/browse/Music-Theory">Britannica</a><br /><br />
+                    <a href="https://2012books.lardbucket.org/pdfs/music-theory.pdf">Music Theory PDF</a><br /><br />
                 </div>
                 </Col>
             </Row>
