@@ -25,4 +25,4 @@ To run this project in your local environment, clone the repo and run ```npm i &
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-
+<h3><a href="https://youtu.be/hPAGFS3dknE">Tutorial Video</a></h3> (for the sake of simplicity, I have temporarily removed the ability to save songs.)
