@@ -90,7 +90,6 @@ export default function songReducer(state = {
         }
 
         case "ADD_CHORD": 
-        console.log(action)
         const newChord = {...action.chord, songChordId: uuidv4() }
         return {
             ...state,
