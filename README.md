@@ -30,7 +30,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <h3>Stretch Goals: </h3>
 
 <ul>
-  <li>Assign a "mood" to attribute chords, scales, and keys.</li>
+  <li>Assign a "mood" attribute chords, scales, and keys.</li>
   <li>Allow a user to generate a random song in a key based on the "mood" they have selected.</li>
   <li>This would be done by using this phenominal API: <a href="https://www.hooktheory.com/api/trends/docs">Hook Theory</a>
 </ul>
