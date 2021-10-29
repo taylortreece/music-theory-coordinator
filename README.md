@@ -1,4 +1,4 @@
-<h1>Music Theory Coordinator</h1>
+<h1>♩ ♪ ♬ Music Theory Coordinator ♬ ♪ ♩</h1>
 
 This project is dedicated to helping people learn music theory that may not yet have the skills to play an instrument.
 If you cannot hear disonace and resolve, learning why we play music might be a little harder. 
