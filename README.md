@@ -1,3 +1,10 @@
+<h1>Music Theory Coordinator</h1>
+
+This project is dedicated to helping people learn music theory that may not yet have the skills to play an instrument.
+If you cannot hear disonace and resolve, learning why we play music might be a little harder. 
+In the song-building sandbox, or <a href="https://music-theory-coordinator.netlify.app/"><strong>Song Workshop</strong></a>, you can hear
+what you learn after reading the "Learn Theory" section.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
