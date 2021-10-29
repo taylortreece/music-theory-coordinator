@@ -5,6 +5,7 @@ If you cannot hear disonace and resolve, learning why we play music might be a l
 In the song-building sandbox, or <a href="https://music-theory-coordinator.netlify.app/"><strong>Song Workshop</strong></a>, you can hear
 what you learn after reading the "Learn Theory" section.
 
+The music theory gathered to build the sandbox was coded by yours truly in this Rails <a href="https://github.com/taylortreece/music-theory-coordinator-api">Music Theory API</a>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
