@@ -26,3 +26,11 @@ To run this project in your local environment, clone the repo and run ```npm i &
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 <h3><a href="https://youtu.be/hPAGFS3dknE">Tutorial Video</a></h3> (for the sake of simplicity, I have temporarily removed the ability to save songs.)
+
+<h3>Stretch Goals: </h3>
+
+<ul>
+  <li>Assign a "mood" to attribute chords, scales, and keys.</li>
+  <li>Allow a user to generate a random song in a key based on the "mood" they have selected.</li>
+  <li>This would be done by using this phenominal API: <a href="https://www.hooktheory.com/api/trends/docs">Hook Theory</a>
+</ul>
